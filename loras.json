@@ -1,0 +1,553 @@
+{
+  "release": "h3-loras-v1",
+  "updated": "2026-10-30T15:40:00Z",
+  "loras": [
+    {
+      "filename": "BJ_v3.safetensors",
+      "sha256": "fbb93a67b429c79145c95598e9ac38388ad49d6df1c09c96cf989cce99277d53",
+      "size": 310191544,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/BJ_v3.safetensors",
+      "name": "MM-H3 - Blowjob v3",
+      "author": "kermitfrog1202 (original; account banned). Civitai repost by ronaldgobine73 (deleted)",
+      "source_url": "https://civitai.com/models/2845331?modelVersionId=3285598",
+      "base_model": "MiniMax H3",
+      "triggers": [
+        "bl0w_j0b"
+      ],
+      "strength": {
+        "recommended": 1.0,
+        "range": null
+      },
+      "usage": "Source via CivArchive (original Civitai page removed). Samples are T2V; reported to work with Ref2V.",
+      "prompt_examples": []
+    },
+    {
+      "filename": "breastplayjiggle_h3_v2.safetensors",
+      "sha256": "18832302cd509749b5c6925f5593c2265bf3d9ee1e4f2a8599b576b835aa61c3",
+      "size": 298262376,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/breastplayjiggle_h3_v2.safetensors",
+      "name": "Breast Play & Jiggle for MiniMax H3 v2.0",
+      "author": "definitelynotadog",
+      "source_url": "https://civitai.com/models/2856004",
+      "base_model": "MiniMax H3",
+      "triggers": [],
+      "strength": {
+        "recommended": 0.75,
+        "range": [
+          0.7,
+          0.8
+        ]
+      },
+      "usage": "Natural breast bounce/jiggle and breast play (v2 adds nipple sucking). Trained for FL2V; use lower strength with Ref. 1.0 may cause finger artifacts.",
+      "prompt_examples": [
+        "The woman <insert action here>, causing her breasts to jiggle side to side/bounce up and down.",
+        "The woman grabs/squeezes her breasts together with her hands/upper arms."
+      ]
+    },
+    {
+      "filename": "Cumshot_HM_v1.safetensors",
+      "sha256": "634c39cfcbfd9421a2d7b5adc62573fc232384c4c75e003c2e11d3408ad0765c",
+      "size": 310168344,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Cumshot_HM_v1.safetensors",
+      "name": "HMCumshot v1.0",
+      "author": "HearmemanAI",
+      "source_url": "https://civitai.com/models/2857340",
+      "base_model": "MiniMax H3",
+      "triggers": [],
+      "strength": {
+        "recommended": 0.7,
+        "range": [
+          0.7,
+          0.9
+        ]
+      },
+      "usage": "Action LoRA for cumshots; stacks on HMPenis/HMPussy. T2V/I2V 0.7 (Turbo 8-step 0.85), R2V 0.9 (Turbo 4-step 0.85). Euler/simple, shift 6. Write blunt plain prompts; describe cum texture.",
+      "prompt_examples": [
+        "hmcumshot3, he shoots a big load of thick white cum from his cock in five thick spurts. She is a petite blonde with her eyes shut and her mouth open. This pov shot shows her kneeling on a dark wood floor."
+      ]
+    },
+    {
+      "filename": "Deepthroat_Ultimate_v1.safetensors",
+      "sha256": "c94e43ba18cb1e7d6dc5b376821bf593a997f60b09b662a2c5fc5b6a4bfb6105",
+      "size": 310158672,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Deepthroat_Ultimate_v1.safetensors",
+      "name": "Ultimate DeepThroat + Frenulum Vers - MiniMax H3 - K3NK",
+      "author": "K3NK",
+      "source_url": "https://civitai.com/models/2904180",
+      "base_model": "MiniMax H3",
+      "triggers": [],
+      "strength": {
+        "recommended": null,
+        "range": null
+      },
+      "usage": "Deepthroat/frenulum. Workflow + prompts embedded in gallery videos.",
+      "prompt_examples": []
+    },
+    {
+      "filename": "deepthroat_v02.safetensors",
+      "sha256": "1fd239662f6290255b0bb3a220764fb53aab2859378f7fd3024030c1e1991cb2",
+      "size": 298263792,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/deepthroat_v02.safetensors",
+      "name": "Daring's Deepthroat H3/LTX2.3 (MiniMax H3 FL2VA v0.2)",
+      "author": "daring_l",
+      "source_url": "https://civitai.com/models/2476698",
+      "base_model": "MiniMax H3",
+      "triggers": [],
+      "strength": {
+        "recommended": null,
+        "range": null
+      },
+      "usage": "Joint audio-video deepthroat LoRA; 'maintain eye contact' works as prompt phrase; audio is quiet (normalize afterwards); reroll seeds before rewriting.",
+      "prompt_examples": []
+    },
+    {
+      "filename": "Finger_BEAN_v1.safetensors",
+      "sha256": "914e3ecb0b515ad1a40c0185a8d23a34f87a1ced370db8bfb0ed3b5845dbf0a2",
+      "size": 155109864,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Finger_BEAN_v1.safetensors",
+      "name": "BEANFLK — Masturbation & Finger Insertion + Audio (H3)",
+      "author": "LORAGEEK",
+      "source_url": "https://civitai.com/models/2829335",
+      "base_model": "MiniMax H3",
+      "triggers": [
+        "BEANFLK"
+      ],
+      "strength": {
+        "recommended": 0.4,
+        "range": null
+      },
+      "usage": "Put BEANFLK (all caps) as first word, then scene/action. On H3 insertion fires at 0.40.",
+      "prompt_examples": []
+    },
+    {
+      "filename": "Finger_Insert_3323149.safetensors",
+      "sha256": "2f69376ce473d8a9a9ba4e3b306fabfc65c8d9252decff06f413d73741533540",
+      "size": 155110392,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Finger_Insert_3323149.safetensors",
+      "name": "Minimax H3 - Perfect Fingering v1.0",
+      "author": "hboxgames132",
+      "source_url": "https://civitai.com/models/2935787",
+      "base_model": "MiniMax H3",
+      "triggers": [
+        "sensual_fingering"
+      ],
+      "strength": {
+        "recommended": null,
+        "range": null
+      },
+      "usage": "Optional: add squirting phrase.",
+      "prompt_examples": [
+        "sensual_fingering, fingering her vagina with her two middle fingers, her fingers are sliding in and out of her vagina,"
+      ]
+    },
+    {
+      "filename": "h3-nipplesuck-step00007000-k3nk.safetensors",
+      "sha256": "a8561078f72c9ffdee3fd2b758374a2cc9e4f210a648cf71ed04acc6dfe11cf4",
+      "size": 298263784,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/h3-nipplesuck-step00007000-k3nk.safetensors",
+      "name": "Self Nipple Roping and Sucking LoRA - MiniMax H3 - K3NK v0.1",
+      "author": "K3NK",
+      "source_url": "https://civitai.com/models/2984096",
+      "base_model": "MiniMax H3",
+      "triggers": [
+        "n1ppl3suck1ng"
+      ],
+      "strength": {
+        "recommended": null,
+        "range": null
+      },
+      "usage": "Self nipple sucking; works with static camera Ref2V prompts (see model page).",
+      "prompt_examples": []
+    },
+    {
+      "filename": "HMCumshot_V2.safetensors",
+      "sha256": "1a5b7948bb97f27737e62c3dd5497a3afb77517f230787f45e45c7d8fe3dc24d",
+      "size": 626294968,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/HMCumshot_V2.safetensors",
+      "name": "HMCumshot V0.5",
+      "author": "HearmemanAI",
+      "source_url": "https://civitai.com/models/2857340",
+      "base_model": "MiniMax H3",
+      "triggers": [
+        "cumshot"
+      ],
+      "strength": {
+        "recommended": 0.7,
+        "range": [
+          0.7,
+          0.9
+        ]
+      },
+      "usage": "Same model page as Cumshot_HM_v1 (this file = version V0.5). Same settings.",
+      "prompt_examples": []
+    },
+    {
+      "filename": "HMNSFW-AIO-V2.5.safetensors",
+      "sha256": "a07732a84fd733085eb5d910f602f918fa7a3658117116927e4329f5951a9d2d",
+      "size": 86040232,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/HMNSFW-AIO-V2.5.safetensors",
+      "name": "HMNSFW - AIO Sex LoRA V2.5",
+      "author": "HearmemanAI",
+      "source_url": "https://civitai.com/models/2834417",
+      "base_model": "MiniMax H3",
+      "triggers": [],
+      "strength": {
+        "recommended": null,
+        "range": null
+      },
+      "usage": "General realism/NSFW AIO. Settings: Euler/simple, 12 steps, shift 6, Turbo LoRA 0.5. Not plug-and-play; experiment with mixing.",
+      "prompt_examples": []
+    },
+    {
+      "filename": "HMPussyV2.safetensors",
+      "sha256": "7b9559077d8ac623d52b64b438d8ad60cb85b31b6fecf011aab238b70962a2ed",
+      "size": 77580016,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/HMPussyV2.safetensors",
+      "name": "HMPussy - Pussy/Anus LoRA V2",
+      "author": "HearmemanAI",
+      "source_url": "https://civitai.com/models/2846342",
+      "base_model": "MiniMax H3",
+      "triggers": [
+        "Pussy",
+        "vagina",
+        "anus"
+      ],
+      "strength": {
+        "recommended": null,
+        "range": null
+      },
+      "usage": "Anatomy adapter. Page notes (older versions): stills-trained file at 1.0, video-trained at 0.35; strengths not fixed.",
+      "prompt_examples": []
+    },
+    {
+      "filename": "JerkOff_H3.safetensors",
+      "sha256": "d9145b17a8eca7fe252cb1c2a51e64745484df819db9bce0f90699263800e8aa",
+      "size": 155110304,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/JerkOff_H3.safetensors",
+      "name": "Jerking Off (Minimax H3)",
+      "author": "kermitfrog1202",
+      "source_url": "https://civitai.com/models/2933701?modelVersionId=3320556",
+      "base_model": "MiniMax H3",
+      "triggers": [
+        "[He/She] is jerking off."
+      ],
+      "strength": {
+        "recommended": null,
+        "range": null
+      },
+      "usage": "Source via CivArchive. Pair with a penis LoRA for best results.",
+      "prompt_examples": []
+    },
+    {
+      "filename": "M3_Unlocked_v2.safetensors",
+      "sha256": "8138e5ec1c6cc79706f1129311e90dcd04cc0ef708336c494161b09057f34c07",
+      "size": 172065637,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/M3_Unlocked_v2.safetensors",
+      "name": "MiniMax H3 NSFW Unlocked (M3_V1)",
+      "author": "The_Midnight_Lab",
+      "source_url": "https://civitai.com/models/2925727",
+      "base_model": "MiniMax H3",
+      "triggers": [
+        "nude",
+        "topless",
+        "bare breasts",
+        "naked",
+        "completely unclothed"
+      ],
+      "strength": {
+        "recommended": 0.5,
+        "range": [
+          0.3,
+          1.0
+        ]
+      },
+      "usage": "General NSFW unlock; Euler_ancestral with 4-8 turbo steps.",
+      "prompt_examples": []
+    },
+    {
+      "filename": "minimax-jav-voice.safetensors",
+      "sha256": "6198a007b4d7c8e6f8fabdcb9b3fabfd584f0dcc40a4ff04120373d195031fd1",
+      "size": 155131408,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/minimax-jav-voice.safetensors",
+      "name": "JAV moans/喘ぎ声 - Audio Only [Minimax H3] v1.0",
+      "author": "TwoMoreLurker",
+      "source_url": "https://civitai.com/models/2902825",
+      "base_model": "MiniMax H3",
+      "triggers": [
+        "jpnMoans"
+      ],
+      "strength": {
+        "recommended": null,
+        "range": null
+      },
+      "usage": "Audio-only Japanese moaning; dialogue should be Japanese.",
+      "prompt_examples": [
+        "jpnMoans, she breathes heavily",
+        "jpnMoans, she moans and says \"気持ちいい\""
+      ]
+    },
+    {
+      "filename": "minimax-timefreeze_000003020.safetensors",
+      "sha256": "838bd5aa8428047ff5055a6ee82991ec92b2e2bc3575ea20d7cbb4f415606ae3",
+      "size": 155110296,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/minimax-timefreeze_000003020.safetensors",
+      "name": "Timefreezes (minimaxh3-timefreeze)",
+      "author": "pongjoo",
+      "source_url": "https://civitai.com/models/2437696",
+      "base_model": "MiniMax H3",
+      "triggers": [
+        "A fifteen-second photoreal time freeze video."
+      ],
+      "strength": {
+        "recommended": 1.1,
+        "range": [
+          0.8,
+          1.5
+        ]
+      },
+      "usage": "Author: high-noise 0.8-1.5 (uses 1.1), low-noise 1.5-2 (uses 1.7); pair with a penis LoRA. Weak on genital detail.",
+      "prompt_examples": []
+    },
+    {
+      "filename": "MM-H3.-.Fingering.v4.safetensors",
+      "sha256": "02b1fe9e5df8588cce1424c7bffb8a3fbb2c89e719a9af7fbbfd939b3d6caf87",
+      "size": 155132912,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/MM-H3.-.Fingering.v4.safetensors",
+      "name": "Fingering (Minimax H3 v4)",
+      "author": "kermitfrog1202",
+      "source_url": "https://civitai.com/models/2923170?modelVersionId=3342915",
+      "base_model": "MiniMax H3",
+      "triggers": [
+        "She slides two fingers into her vagina. She moves her fingers in and out of her vagina."
+      ],
+      "strength": {
+        "recommended": null,
+        "range": null
+      },
+      "usage": "Source via CivArchive.",
+      "prompt_examples": []
+    },
+    {
+      "filename": "Motion_FL2VA_v2.safetensors",
+      "sha256": "f6a6897162b921d2b74abe1fdebcd80c8189147e70e0e0738200756c250336c3",
+      "size": 155110272,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Motion_FL2VA_v2.safetensors",
+      "name": "Faster! Harder! Shake Harder! | H3 Motion Booster V0.2",
+      "author": "FourBunny",
+      "source_url": "https://civitai.com/models/2840146",
+      "base_model": "MiniMax H3",
+      "triggers": [
+        "dynv2"
+      ],
+      "strength": {
+        "recommended": 0.7,
+        "range": [
+          0.6,
+          0.8
+        ]
+      },
+      "usage": "Motion booster (anime-oriented); prompt like animation, not live action. Pair with 2D/anime NSFW LoRAs.",
+      "prompt_examples": [
+        "dynv2, [Shot 1] (S1) is etc. on top of (S2)."
+      ]
+    },
+    {
+      "filename": "Mystic_FL2VA_v4.safetensors",
+      "sha256": "fc3e856d14c6c19557c888f48662d591e4794e281233ec0d987be5003068afba",
+      "size": 155095800,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Mystic_FL2VA_v4.safetensors",
+      "name": "[MMH3] Mystic XXX v4.0",
+      "author": "alcaitiff",
+      "source_url": "https://civitai.com/models/2856467",
+      "base_model": "MiniMax H3",
+      "triggers": [],
+      "strength": {
+        "recommended": 1.0,
+        "range": [
+          0.2,
+          1.0
+        ]
+      },
+      "usage": "Author runs V4 at 1.0.",
+      "prompt_examples": []
+    },
+    {
+      "filename": "MysticXXX_MMH3-V5.safetensors",
+      "sha256": "4168917daeb6e570a004bc6994f73d091b9f3e887f7e946bd00c0f2f7573e5f3",
+      "size": 298932824,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/MysticXXX_MMH3-V5.safetensors",
+      "name": "[MMH3] Mystic XXX v5.0 (FL2VA & REF2VA)",
+      "author": "alcaitiff",
+      "source_url": "https://civitai.com/models/2856467",
+      "base_model": "MiniMax H3",
+      "triggers": [],
+      "strength": {
+        "recommended": null,
+        "range": [
+          0.2,
+          1.0
+        ]
+      },
+      "usage": "General NSFW with audio. Turbo LoRAs change look; adjust strength.",
+      "prompt_examples": []
+    },
+    {
+      "filename": "Nipple_v2.safetensors",
+      "sha256": "7c30c92178e01e33cfbc4684a7b3fb1b71368293443b2941a5b889db3fbd3b18",
+      "size": 155109881,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Nipple_v2.safetensors",
+      "name": "Nipple Play - MiniMax H3 v2.0",
+      "author": "1and3run",
+      "source_url": "https://civitai.com/models/2888071",
+      "base_model": "MiniMax H3",
+      "triggers": [],
+      "strength": {
+        "recommended": 1.0,
+        "range": null
+      },
+      "usage": "Fingertip flicking/pinching of nipples; sucking unreliable (pair with a sucking LoRA). Other strengths untested.",
+      "prompt_examples": [
+        "A beautiful woman with smooth flawless glowing skin and large perfectly shaped soft breasts is topless. She uses both hands to gently pinch and slowly roll her own beautifully formed, fully erect, firm and symmetrical nipples between her fingertips."
+      ]
+    },
+    {
+      "filename": "Orgasm_Masturbate_v1.4.safetensors",
+      "sha256": "3216dedb116e8da8f343bde4551001dd39b2e84d2392af9766d6380ea24007c7",
+      "size": 310168344,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Orgasm_Masturbate_v1.4.safetensors",
+      "name": "H3 Female Masturbation/Orgasmic Contractions v1.0",
+      "author": "anonymist",
+      "source_url": "https://civitai.com/models/2926109",
+      "base_model": "MiniMax H3",
+      "triggers": [
+        "she is sitting with open legs while masturbating with a wand massager / massage gun / her hand",
+        "her pussy and anus to have strong orgasmic contractions visibly tightening and releasing rhythmically",
+        "She has an orgasm that causes her to ...",
+        "she falls back into a relaxed state, audibly catching her breath"
+      ],
+      "strength": {
+        "recommended": null,
+        "range": null
+      },
+      "usage": "Hit or miss contractions. Add 'Background audio is her breathing and sighing only. No mechanical hum. No engine noise.' to avoid hum.",
+      "prompt_examples": []
+    },
+    {
+      "filename": "Panties_v1.safetensors",
+      "sha256": "f2bf0b4fc7d0ab6f3f91300b0a810dcd76e61f6e8fe39f7dbbd480245987447f",
+      "size": 155110312,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Panties_v1.safetensors",
+      "name": "Hand in Panties Masturbation (Minimax H3)",
+      "author": "kermitfrog1202",
+      "source_url": "https://civitai.com/models/2839440?modelVersionId=3205014",
+      "base_model": "MiniMax H3",
+      "triggers": [
+        "She has her hand in her panties.",
+        "She slides her hand in her panties.",
+        "She rubs her vagina."
+      ],
+      "strength": {
+        "recommended": null,
+        "range": null
+      },
+      "usage": "Source via CivArchive.",
+      "prompt_examples": []
+    },
+    {
+      "filename": "Passionate_Kiss.safetensors",
+      "sha256": "71b3435525ef8907d35f12cfb9cb81ee9931761ecb27039fc6919b55dd8cda75",
+      "size": 155110312,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Passionate_Kiss.safetensors",
+      "name": "Passionate Kissing (Minimax H3)",
+      "author": "kermitfrog1202",
+      "source_url": "https://civitai.com/models/2908508?modelVersionId=3289478",
+      "base_model": "MiniMax H3",
+      "triggers": [
+        "They kiss passionately."
+      ],
+      "strength": {
+        "recommended": 1.0,
+        "range": [
+          0.7,
+          1.0
+        ]
+      },
+      "usage": "1.0 for M/F or F/F; ~0.7 for M/M. Source via CivArchive.",
+      "prompt_examples": []
+    },
+    {
+      "filename": "Penis_HM_v2.safetensors",
+      "sha256": "017dd1adddc1be3ec0605dd2e7de97138eb2c6c6ba24be402cf47f103ac1f1b3",
+      "size": 77580008,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Penis_HM_v2.safetensors",
+      "name": "HMPenis - Penis/Cock LoRA v2.0",
+      "author": "HearmemanAI",
+      "source_url": "https://civitai.com/models/2849923",
+      "base_model": "MiniMax H3",
+      "triggers": [
+        "HMPenis"
+      ],
+      "strength": {
+        "recommended": null,
+        "range": null
+      },
+      "usage": "Lead prompt with HMPenis; specify direction (front/side etc.). Best for medium-large.",
+      "prompt_examples": []
+    },
+    {
+      "filename": "Pussy_HM_v1.safetensors",
+      "sha256": "373c3cad3bf27047fdd754fe111443d97e70e3108a8829f2ec63c48832466eb3",
+      "size": 77580008,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Pussy_HM_v1.safetensors",
+      "name": "HMPussy V1 - Stills only",
+      "author": "HearmemanAI",
+      "source_url": "https://civitai.com/models/2846342",
+      "base_model": "MiniMax H3",
+      "triggers": [
+        "pussy"
+      ],
+      "strength": {
+        "recommended": 1.0,
+        "range": null
+      },
+      "usage": "Stills-trained anatomy file; page says run at 1.0.",
+      "prompt_examples": []
+    },
+    {
+      "filename": "Rough.Sex.safetensors",
+      "sha256": "7c212b6f904db4f3841f74b08a1be334cbf9c68512d74c51138496ac15b095fd",
+      "size": 310170240,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Rough.Sex.safetensors",
+      "name": "Rough Sex/Fucked Silly (H3-3D-V1)",
+      "author": "Shrekman17",
+      "source_url": "https://civitai.com/models/1332917",
+      "base_model": "MiniMax H3",
+      "triggers": [
+        "This is a cgi video depicting a rough, intense, penetrative sex with male character performing, intense, fast thrusting motion penetrating female character with his erect penis"
+      ],
+      "strength": {
+        "recommended": null,
+        "range": null
+      },
+      "usage": "3D/CGI style rough sex.",
+      "prompt_examples": []
+    },
+    {
+      "filename": "Squirt_HM_v2.safetensors.safetensors",
+      "sha256": "f0e4bfbe5baebe972880d2250a227e2f475aa8c18d6d01ed897288d9741659d2",
+      "size": 310168344,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Squirt_HM_v2.safetensors.safetensors",
+      "name": "HMMasturbation - Squirting and Female Masturbation v2.0",
+      "author": "HearmemanAI",
+      "source_url": "https://civitai.com/models/2893742",
+      "base_model": "MiniMax H3",
+      "triggers": [],
+      "strength": {
+        "recommended": null,
+        "range": null
+      },
+      "usage": "Experimental. Turbo LoRA 0.5; combine with HMPussy at 0.4-0.8.",
+      "prompt_examples": []
+    }
+  ]
+}
