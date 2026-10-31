@@ -1,6 +1,6 @@
 {
   "release": "h3-loras-v1",
-  "updated": "2026-10-30T16:10:00Z",
+  "updated": "2026-10-30",
   "loras": [
     {
       "filename": "BJ_v3.safetensors",
@@ -9,7 +9,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/BJ_v3.safetensors",
       "name": "MM-H3 - Blowjob v3",
       "author": "kermitfrog1202 (original; account banned). Civitai repost by ronaldgobine73 (deleted)",
-      "source_url": "https://civitai.com/models/2845331?modelVersionId=3285598",
+      "source_url": "https://civarchive.com/models/2845331?modelVersionId=3285598",
       "base_model": "MiniMax H3",
       "triggers": [
         "bl0w_j0b"
@@ -30,7 +30,9 @@
       "example_sources": [
         "https://civitai.com/images/144128234 (by lewd_animator, sample metadata)",
         "https://civitai.com/images/145155655 (by simonishere, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2845331?modelVersionId=3285598",
+      "source_verified": true
     },
     {
       "filename": "breastplayjiggle_h3_v2.safetensors",
@@ -39,7 +41,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/breastplayjiggle_h3_v2.safetensors",
       "name": "Breast Play & Jiggle for MiniMax H3 v2.0",
       "author": "definitelynotadog",
-      "source_url": "https://civitai.com/models/2856004",
+      "source_url": "https://civarchive.com/models/2856004?modelVersionId=3278283",
       "base_model": "MiniMax H3",
       "triggers": [],
       "strength": {
@@ -67,7 +69,9 @@
         "model page: https://civitai.com/models/2856004",
         "model page: https://civitai.com/models/2856004",
         "https://civitai.com/images/141215966 (by definitelynotadog, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2856004?modelVersionId=3278283",
+      "source_verified": true
     },
     {
       "filename": "Cumshot_HM_v1.safetensors",
@@ -76,7 +80,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Cumshot_HM_v1.safetensors",
       "name": "HMCumshot v1.0",
       "author": "HearmemanAI",
-      "source_url": "https://civitai.com/models/2857340",
+      "source_url": "https://civarchive.com/models/2857340?modelVersionId=3329529",
       "base_model": "MiniMax H3",
       "triggers": [],
       "strength": {
@@ -96,7 +100,9 @@
       "fire_hint": "射精の瞬間・精液の質感・着地点（顔/胸等）を平易な直接表現で詳しく書く",
       "example_sources": [
         "https://civitai.com/images/142880566 (by HearmemanAI, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2857340?modelVersionId=3329529",
+      "source_verified": true
     },
     {
       "filename": "Deepthroat_Ultimate_v1.safetensors",
@@ -105,7 +111,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Deepthroat_Ultimate_v1.safetensors",
       "name": "Ultimate DeepThroat + Frenulum Vers - MiniMax H3 - K3NK",
       "author": "K3NK",
-      "source_url": "https://civitai.com/models/2904180",
+      "source_url": "https://civarchive.com/models/2904180?modelVersionId=3284171",
       "base_model": "MiniMax H3",
       "triggers": [],
       "strength": {
@@ -124,7 +130,9 @@
       "example_sources": [
         "https://civitai.com/images/141418039 (by K3NK, sample metadata)",
         "https://civitai.com/images/141508461 (by K3NK, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2904180?modelVersionId=3284171",
+      "source_verified": true
     },
     {
       "filename": "deepthroat_v02.safetensors",
@@ -133,7 +141,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/deepthroat_v02.safetensors",
       "name": "Daring's Deepthroat H3/LTX2.3 (MiniMax H3 FL2VA v0.2)",
       "author": "daring_l",
-      "source_url": "https://civitai.com/models/2476698",
+      "source_url": "https://civarchive.com/models/2476698?modelVersionId=3226989",
       "base_model": "MiniMax H3",
       "triggers": [],
       "strength": {
@@ -150,7 +158,9 @@
       "fire_hint": "ディープスロート/フェラの動作を記述。'maintain eye contact' で目線固定",
       "example_sources": [
         "https://civitai.com/images/140145548 (by yourmetalground, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2476698?modelVersionId=3226989",
+      "source_verified": true
     },
     {
       "filename": "Finger_BEAN_v1.safetensors",
@@ -159,7 +169,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Finger_BEAN_v1.safetensors",
       "name": "BEANFLK — Masturbation & Finger Insertion + Audio (H3)",
       "author": "LORAGEEK",
-      "source_url": "https://civitai.com/models/2829335",
+      "source_url": "https://civarchive.com/models/2829335?modelVersionId=3267091",
       "base_model": "MiniMax H3",
       "triggers": [
         "BEANFLK"
@@ -183,7 +193,9 @@
       "example_sources": [
         "https://civitai.com/images/140840780 (by LORAGEEK, sample metadata)",
         "https://civitai.com/images/140884710 (by LORAGEEK, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2829335?modelVersionId=3267091",
+      "source_verified": true
     },
     {
       "filename": "Finger_Insert_3323149.safetensors",
@@ -192,7 +204,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Finger_Insert_3323149.safetensors",
       "name": "Minimax H3 - Perfect Fingering v1.0",
       "author": "hboxgames132",
-      "source_url": "https://civitai.com/models/2935787",
+      "source_url": "https://civarchive.com/models/2935787?modelVersionId=3323149",
       "base_model": "MiniMax H3",
       "triggers": [
         "sensual_fingering"
@@ -215,7 +227,9 @@
         "model page: https://civitai.com/models/2935787",
         "model page: https://civitai.com/models/2935787",
         "https://civitai.com/images/142686012 (by ArtisticWaifu, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2935787?modelVersionId=3323149",
+      "source_verified": true
     },
     {
       "filename": "h3-nipplesuck-step00007000-k3nk.safetensors",
@@ -224,7 +238,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/h3-nipplesuck-step00007000-k3nk.safetensors",
       "name": "Self Nipple Roping and Sucking LoRA - MiniMax H3 - K3NK v0.1",
       "author": "K3NK",
-      "source_url": "https://civitai.com/models/2984096",
+      "source_url": "https://civarchive.com/models/2984096?modelVersionId=3383093",
       "base_model": "MiniMax H3",
       "triggers": [
         "n1ppl3suck1ng"
@@ -243,7 +257,9 @@
       "fire_hint": "胸を口元へ引き寄せ自分の乳首を吸う動作を時刻付きで記述（trainedWord: n1ppl3suck1ng）",
       "example_sources": [
         "https://civitai.com/images/144655430 (by K3NK, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2984096?modelVersionId=3383093",
+      "source_verified": true
     },
     {
       "filename": "HMCumshot_V2.safetensors",
@@ -252,7 +268,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/HMCumshot_V2.safetensors",
       "name": "HMCumshot V0.5",
       "author": "HearmemanAI",
-      "source_url": "https://civitai.com/models/2857340",
+      "source_url": "https://civarchive.com/models/2857340?modelVersionId=3238531",
       "base_model": "MiniMax H3",
       "triggers": [
         "cumshot"
@@ -276,7 +292,9 @@
       "example_sources": [
         "model page: https://civitai.com/models/2857340",
         "https://civitai.com/images/140178656 (by lizhai, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2857340?modelVersionId=3238531",
+      "source_verified": true
     },
     {
       "filename": "HMNSFW-AIO-V2.5.safetensors",
@@ -285,7 +303,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/HMNSFW-AIO-V2.5.safetensors",
       "name": "HMNSFW - AIO Sex LoRA V2.5",
       "author": "HearmemanAI",
-      "source_url": "https://civitai.com/models/2834417",
+      "source_url": "https://civarchive.com/models/2834417?modelVersionId=3268303",
       "base_model": "MiniMax H3",
       "triggers": [],
       "strength": {
@@ -307,7 +325,9 @@
       "fire_hint": "トリガー不要。性行為の内容・体位・カメラを詳細に書く（プロンプトの質が全て）",
       "example_sources": [
         "https://civitai.com/images/141054460 (by simonishere, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2834417?modelVersionId=3268303",
+      "source_verified": true
     },
     {
       "filename": "HMPussyV2.safetensors",
@@ -316,7 +336,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/HMPussyV2.safetensors",
       "name": "HMPussy - Pussy/Anus LoRA V2",
       "author": "HearmemanAI",
-      "source_url": "https://civitai.com/models/2846342",
+      "source_url": "https://civarchive.com/models/2846342?modelVersionId=3436891",
       "base_model": "MiniMax H3",
       "triggers": [
         "Pussy",
@@ -337,7 +357,9 @@
       "fire_hint": "vagina / pussy / anus を明示し、形状・陰毛・開き方・カメラ位置を描写",
       "example_sources": [
         "https://civitai.com/images/147196098 (by HearmemanAI, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2846342?modelVersionId=3436891",
+      "source_verified": true
     },
     {
       "filename": "JerkOff_H3.safetensors",
@@ -346,7 +368,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/JerkOff_H3.safetensors",
       "name": "Jerking Off (Minimax H3)",
       "author": "kermitfrog1202",
-      "source_url": "https://civitai.com/models/2933701?modelVersionId=3320556",
+      "source_url": "https://civarchive.com/models/2933701?modelVersionId=3320556",
       "base_model": "MiniMax H3",
       "triggers": [
         "[He/She] is jerking off."
@@ -368,7 +390,9 @@
       "fire_hint": "He is jerking off. / She is jerking off. と書き、手で竿をしごく動作を記述",
       "example_sources": [
         "https://civitai.com/images/144263976 (by ArbuzAi, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2933701?modelVersionId=3320556",
+      "source_verified": true
     },
     {
       "filename": "M3_Unlocked_v2.safetensors",
@@ -377,7 +401,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/M3_Unlocked_v2.safetensors",
       "name": "MiniMax H3 NSFW Unlocked (M3_V1)",
       "author": "The_Midnight_Lab",
-      "source_url": "https://civitai.com/models/2925727",
+      "source_url": "https://civarchive.com/models/2925727?modelVersionId=3310653",
       "base_model": "MiniMax H3",
       "triggers": [
         "nude",
@@ -403,7 +427,9 @@
       "fire_hint": "nude / topless / bare breasts 等を被写体記述に入れる",
       "example_sources": [
         "https://civitai.com/images/143199458 (by kenpechi, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2925727?modelVersionId=3310653",
+      "source_verified": true
     },
     {
       "filename": "minimax-jav-voice.safetensors",
@@ -412,7 +438,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/minimax-jav-voice.safetensors",
       "name": "JAV moans/喘ぎ声 - Audio Only [Minimax H3] v1.0",
       "author": "TwoMoreLurker",
-      "source_url": "https://civitai.com/models/2902825",
+      "source_url": "https://civarchive.com/models/2902825?modelVersionId=3282509",
       "base_model": "MiniMax H3",
       "triggers": [
         "jpnMoans"
@@ -439,7 +465,9 @@
         "model page: https://civitai.com/models/2902825",
         "model page: https://civitai.com/models/2902825",
         "https://civitai.com/images/141356414 (by TwoMoreLurker, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2902825?modelVersionId=3282509",
+      "source_verified": true
     },
     {
       "filename": "minimax-timefreeze_000003020.safetensors",
@@ -448,7 +476,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/minimax-timefreeze_000003020.safetensors",
       "name": "Timefreezes (minimaxh3-timefreeze)",
       "author": "pongjoo",
-      "source_url": "https://civitai.com/models/2437696",
+      "source_url": "https://civarchive.com/models/2437696?modelVersionId=3383271",
       "base_model": "MiniMax H3",
       "triggers": [
         "A fifteen-second photoreal time freeze video."
@@ -472,7 +500,9 @@
       "example_sources": [
         "https://civitai.com/images/144843277 (by cgibson, sample metadata)",
         "https://civitai.com/images/145058771 (by koto2091187, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2437696?modelVersionId=3383271",
+      "source_verified": true
     },
     {
       "filename": "MM-H3.-.Fingering.v4.safetensors",
@@ -481,7 +511,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/MM-H3.-.Fingering.v4.safetensors",
       "name": "Fingering (Minimax H3 v4)",
       "author": "kermitfrog1202",
-      "source_url": "https://civitai.com/models/2923170?modelVersionId=3342915",
+      "source_url": "https://civarchive.com/models/2923170?modelVersionId=3342915",
       "base_model": "MiniMax H3",
       "triggers": [
         "She slides two fingers into her vagina. She moves her fingers in and out of her vagina."
@@ -502,7 +532,9 @@
       "fire_hint": "She slides two fingers into her vagina. She moves her fingers in and out of her vagina. をそのまま書く",
       "example_sources": [
         "https://civitai.com/images/143355385 (by iPiKo, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2923170?modelVersionId=3342915",
+      "source_verified": true
     },
     {
       "filename": "Motion_FL2VA_v2.safetensors",
@@ -511,7 +543,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Motion_FL2VA_v2.safetensors",
       "name": "Faster! Harder! Shake Harder! | H3 Motion Booster V0.2",
       "author": "FourBunny",
-      "source_url": "https://civitai.com/models/2840146",
+      "source_url": "https://civarchive.com/models/2840146?modelVersionId=3228867",
       "base_model": "MiniMax H3",
       "triggers": [
         "dynv2"
@@ -535,7 +567,9 @@
       "example_sources": [
         "model page: https://civitai.com/models/2840146",
         "https://civitai.com/images/142181756 (by LSZY, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2840146?modelVersionId=3228867",
+      "source_verified": true
     },
     {
       "filename": "Mystic_FL2VA_v4.safetensors",
@@ -544,7 +578,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Mystic_FL2VA_v4.safetensors",
       "name": "[MMH3] Mystic XXX v4.0",
       "author": "alcaitiff",
-      "source_url": "https://civitai.com/models/2856467",
+      "source_url": "https://civarchive.com/models/2856467?modelVersionId=3266628",
       "base_model": "MiniMax H3",
       "triggers": [],
       "strength": {
@@ -564,7 +598,9 @@
       "fire_hint": "トリガー不要。性行為を自然文で詳細に記述",
       "example_sources": [
         "https://civitai.com/images/141054460 (by simonishere, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2856467?modelVersionId=3266628",
+      "source_verified": true
     },
     {
       "filename": "MysticXXX_MMH3-V5.safetensors",
@@ -573,7 +609,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/MysticXXX_MMH3-V5.safetensors",
       "name": "[MMH3] Mystic XXX v5.0 (FL2VA & REF2VA)",
       "author": "alcaitiff",
-      "source_url": "https://civitai.com/models/2856467",
+      "source_url": "https://civarchive.com/models/2856467?modelVersionId=3416478",
       "base_model": "MiniMax H3",
       "triggers": [],
       "strength": {
@@ -593,7 +629,9 @@
       "fire_hint": "トリガー不要。性行為を自然文で詳細に記述（REF2VA/FL2VA対応）",
       "example_sources": [
         "https://civitai.com/images/146410100 (by lewd_animator, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2856467?modelVersionId=3416478",
+      "source_verified": true
     },
     {
       "filename": "Nipple_v2.safetensors",
@@ -602,7 +640,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Nipple_v2.safetensors",
       "name": "Nipple Play - MiniMax H3 v2.0",
       "author": "1and3run",
-      "source_url": "https://civitai.com/models/2888071",
+      "source_url": "https://civarchive.com/models/2888071?modelVersionId=3295051",
       "base_model": "MiniMax H3",
       "triggers": [],
       "strength": {
@@ -623,7 +661,9 @@
       "example_sources": [
         "model page: https://civitai.com/models/2888071",
         "https://civitai.com/images/141767623 (by 1and3run, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2888071?modelVersionId=3295051",
+      "source_verified": true
     },
     {
       "filename": "Orgasm_Masturbate_v1.4.safetensors",
@@ -632,7 +672,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Orgasm_Masturbate_v1.4.safetensors",
       "name": "H3 Female Masturbation/Orgasmic Contractions v1.0",
       "author": "anonymist",
-      "source_url": "https://civitai.com/models/2926109",
+      "source_url": "https://civarchive.com/models/2926109?modelVersionId=3311155",
       "base_model": "MiniMax H3",
       "triggers": [
         "she is sitting with open legs while masturbating with a wand massager / massage gun / her hand",
@@ -656,7 +696,9 @@
       "fire_hint": "開脚で座りオナニー→ She has an orgasm that causes her pussy and anus to have strong orgasmic contractions... の流れで書く",
       "example_sources": [
         "https://civitai.com/images/142294945 (by anonymist, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2926109?modelVersionId=3311155",
+      "source_verified": true
     },
     {
       "filename": "Panties_v1.safetensors",
@@ -665,7 +707,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Panties_v1.safetensors",
       "name": "Hand in Panties Masturbation (Minimax H3)",
       "author": "kermitfrog1202",
-      "source_url": "https://civitai.com/models/2839440?modelVersionId=3205014",
+      "source_url": "https://civarchive.com/models/2839440?modelVersionId=3205014",
       "base_model": "MiniMax H3",
       "triggers": [
         "She has her hand in her panties.",
@@ -689,7 +731,9 @@
       "fire_hint": "She slides her hand in her panties. She rubs her vagina. と書く",
       "example_sources": [
         "https://civitai.com/images/141445464 (by nadja320, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2839440?modelVersionId=3205014",
+      "source_verified": true
     },
     {
       "filename": "Passionate_Kiss.safetensors",
@@ -698,7 +742,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Passionate_Kiss.safetensors",
       "name": "Passionate Kissing (Minimax H3)",
       "author": "kermitfrog1202",
-      "source_url": "https://civitai.com/models/2908508?modelVersionId=3289478",
+      "source_url": "https://civarchive.com/models/2908508?modelVersionId=3289478",
       "base_model": "MiniMax H3",
       "triggers": [
         "They kiss passionately."
@@ -723,7 +767,9 @@
       "fire_hint": "They kiss passionately. と書く",
       "example_sources": [
         "https://civitai.com/images/145390987 (by NoDeadLine, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2908508?modelVersionId=3289478",
+      "source_verified": true
     },
     {
       "filename": "Penis_HM_v2.safetensors",
@@ -732,7 +778,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Penis_HM_v2.safetensors",
       "name": "HMPenis - Penis/Cock LoRA v2.0",
       "author": "HearmemanAI",
-      "source_url": "https://civitai.com/models/2849923",
+      "source_url": "https://civarchive.com/models/2849923?modelVersionId=3247473",
       "base_model": "MiniMax H3",
       "triggers": [
         "HMPenis",
@@ -755,7 +801,9 @@
       "fire_hint": "HMPenis で始め、向き（Front/Back/Side）を指定",
       "example_sources": [
         "https://civitai.com/images/140235121 (by HearmemanAI, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2849923?modelVersionId=3247473",
+      "source_verified": true
     },
     {
       "filename": "Pussy_HM_v1.safetensors",
@@ -764,7 +812,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Pussy_HM_v1.safetensors",
       "name": "HMPussy V1 - Stills only",
       "author": "HearmemanAI",
-      "source_url": "https://civitai.com/models/2846342",
+      "source_url": "https://civarchive.com/models/2846342?modelVersionId=3252213",
       "base_model": "MiniMax H3",
       "triggers": [
         "pussy"
@@ -783,7 +831,9 @@
       "fire_hint": "pussy を含め、女性器の形状・陰毛・角度を具体的に描写",
       "example_sources": [
         "https://civitai.com/images/140561203 (by HearmemanAI, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2846342?modelVersionId=3252213",
+      "source_verified": true
     },
     {
       "filename": "Rough.Sex.safetensors",
@@ -792,7 +842,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Rough.Sex.safetensors",
       "name": "Rough Sex/Fucked Silly (H3-3D-V1)",
       "author": "Shrekman17",
-      "source_url": "https://civitai.com/models/1332917",
+      "source_url": "https://civarchive.com/models/1332917?modelVersionId=3402996",
       "base_model": "MiniMax H3",
       "triggers": [
         "This is a cgi video depicting a rough, intense, penetrative sex with male character performing, intense, fast thrusting motion penetrating female character with his erect penis"
@@ -816,7 +866,9 @@
       "fire_hint": "先頭にトリガー文（CGI video depicting a rough, intense, penetrative sex ...）を入れ、体位を記述",
       "example_sources": [
         "https://civitai.com/images/145556691 (by Shrekman17, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/1332917?modelVersionId=3402996",
+      "source_verified": true
     },
     {
       "filename": "Squirt_HM_v2.safetensors.safetensors",
@@ -825,7 +877,7 @@
       "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Squirt_HM_v2.safetensors.safetensors",
       "name": "HMMasturbation - Squirting and Female Masturbation v2.0",
       "author": "HearmemanAI",
-      "source_url": "https://civitai.com/models/2893742",
+      "source_url": "https://civarchive.com/models/2893742?modelVersionId=3310312",
       "base_model": "MiniMax H3",
       "triggers": [],
       "strength": {
@@ -842,7 +894,9 @@
       "fire_hint": "指挿入オナニー→潮吹きを具体的に描写。HMPussy併用",
       "example_sources": [
         "https://civitai.com/images/142272829 (by HearmemanAI, sample metadata)"
-      ]
+      ],
+      "civitai_url": "https://civitai.com/models/2893742?modelVersionId=3310312",
+      "source_verified": true
     }
   ]
 }
