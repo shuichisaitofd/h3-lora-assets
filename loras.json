@@ -1,6 +1,6 @@
 {
   "release": "h3-loras-v1",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "loras": [
     {
       "filename": "BJ_v3.safetensors",
@@ -18,18 +18,24 @@
         "recommended": 1.0,
         "range": null,
         "source": "model page (CivArchive)",
-        "sample_metadata_weights": null
+        "sample_metadata_weights": [
+          0.3,
+          0.65,
+          0.7,
+          0.75,
+          1
+        ]
       },
       "usage": "フェラ(口淫)動作LoRA。トリガー bl0w_j0b 必須（元ページ記載）。強度1.0。サンプルはT2Vだが Ref2Vでも動作報告あり。元作者 kermitfrog1202 はBAN済、CivArchive経由で確認。",
       "prompt_examples": [
         "subject_definitions:\n<Subject 1> is the woman whose face, eyes, nose, mouth, and hairline come from <Picture 4> and whose body, breasts, and red triangle bikini come from <Picture 1>: oval face, wide-set green-hazel eyes, natural unpierced nose, full lips, long sunlit wavy chestnut-brown hair with wet strands on her cheeks, fair skin, large breasts in a tiny red triangle bikini top and red side-tie bottoms. bl0w_j0b giver. She kneels on all fours on the terrace floor and works him aggressive and eager: fast hungry bobs, a sharp pull-off, then she lunges back onto the cock. Every time her lips travel on the shaft they smear the saliva already on it and leave a fresh clear-milky coat on the skin they pass. Head angle, bob, pull-off, spit-string, lunge-back-in, and take follow the kneeling woman in <Video 1>. Head-to-cock scale follows <Picture 5>. Her voice is generated to match her vocal timing in <Video 1>: the wet plop and short cry when the cock leaves her mouth.\n<Subject 2> is the man whose hairy lower belly, dense dark pubic hair, hairy thighs, and thick veined erect cock come from <Picture 2>. Length-to-thickness stays the <Picture 2> ratio. Overall size is the <Picture 5> scale versus <Subject 1>'s head. Bare from the waist down. High-angle body-cam and the later hand-on-shaft follow the man in <Video 1>. A thick clear-milky saliva glaze already coats the glans and upper shaft.\n<Subject 3> is the terrace from <Picture 3>: terracotta tile floor, patterned kilim, white st …(truncated; full prompt at source)",
-        "integrated_multimodal_description: [Shot 1] 3D animation with exaggerated motion, a first-person view looking straight down from the eyes of a standing man in a locker corridor. His torso fills the bottom of the frame. His erect penis rests with the glans on the tongue of the kneeling blonde woman in the picture, who looks up at the lens with her mouth open and her tongue out, both hands flat on the floor at her sides."
+        "A point-of-view shot looking down at a person with vibrant, messy blue hair and a white t-shirt, on their knees in a dimly lit room with a black pillow nearby. At first they are focused downward on the oral sex, their hands gripping the man's penis. Then they slowly lift their head, their gaze meeting the camera lens and starts to suck on the ip of their penis in a  bl0w_j0b. Finally they look up and smile, a slow blink and a tilt of the head conveying amusement. The frame never moves. The lighting is soft and natural, coming from the side. Audio: the sound of shallow breathing, the rustle of her white t-shirt, and the quiet ambient noise of the room. Sloppy blowjob sounds."
       ],
       "trigger_required": true,
       "fire_hint": "プロンプトに bl0w_j0b を入れ、フェラの動作を記述",
       "example_sources": [
-        "https://civitai.com/images/144128234 (by lewd_animator, sample metadata)",
-        "https://civitai.com/images/145155655 (by simonishere, sample metadata)"
+        "https://civitai.com/images/144128234 (by lewd_animator, sample metadata, modelVersionId=3285598)",
+        "https://civitai.com/images/141635977 (by c34748526784, sample metadata, modelVersionId=3285598)"
       ],
       "civitai_url": "https://civitai.com/models/2845331?modelVersionId=3285598",
       "source_verified": true
@@ -45,30 +51,23 @@
       "base_model": "MiniMax H3",
       "triggers": [],
       "strength": {
-        "recommended": 0.75,
-        "range": [
-          0.7,
-          0.8
-        ],
-        "source": "model page",
+        "recommended": null,
+        "range": null,
+        "source": "配布元に記載なし（v2.0）",
         "sample_metadata_weights": [
+          0.75,
+          0.8,
           0.85
         ]
       },
-      "usage": "胸の揺れ・胸を触る/揉む/乳首を吸う動作を強化。トリガー語なし（自然文の動作記述で発火）。推奨0.7–0.8（1.0は指に破綻が出ることあり）。FL2V向け学習、Ref利用時は強度を下げる。サンプルメタデータでは0.85使用例あり。",
+      "usage": "v2.0（v1から新規学習）。v2.0は揺れ/バウンドより胸を揉む・吸う等の「ブレストプレイ」重視、吸う動作は良好・舐めは不安定（モデル説明のV2.0節）。トリガー語なし。FL2V向け学習、Ref利用時は強度を下げる。v2.0の推奨強度は配布元に記載なし（サンプルメタデータでは0.75–0.85）。",
       "prompt_examples": [
-        "The woman <insert action here>, causing her breasts to jiggle side to side/bounce up and down.",
-        "The woman slaps her breasts.",
-        "The woman grabs/squeezes her breasts together with her hands/upper arms.",
         "summary:\nA woman with very large breasts reclines on a brown leather sofa.\n\ndetailed_description:\nShe grabs her right breast with both hands and lifts it up, and sucks onto her left nipple with her lips twice.\nAt 00:04.000 she then closes her mouth and lifts up her other breast, she sticks her tongue out and licks her nipple. The camera is handheld and slowly moves closer to her throughout the duration of the shot.\n\noverall_soundscape:\nN/A\n\nnon_diegetic_music:\nN/A"
       ],
       "trigger_required": false,
-      "fire_hint": "「The woman ..., causing her breasts to jiggle/bounce」等、胸の動き・胸を揉む/吸う動作を自然文で書く",
+      "fire_hint": "胸を掴む/揉む/持ち上げる/乳首を吸う等の動作を自然文で具体的に書く（トリガー語なし）",
       "example_sources": [
-        "model page: https://civitai.com/models/2856004",
-        "model page: https://civitai.com/models/2856004",
-        "model page: https://civitai.com/models/2856004",
-        "https://civitai.com/images/141215966 (by definitelynotadog, sample metadata)"
+        "https://civitai.com/images/141215966 (by definitelynotadog, sample metadata, modelVersionId=3278283)"
       ],
       "civitai_url": "https://civitai.com/models/2856004?modelVersionId=3278283",
       "source_verified": true
@@ -90,7 +89,9 @@
           0.9
         ],
         "source": "model/version page",
-        "sample_metadata_weights": null
+        "sample_metadata_weights": [
+          0.7
+        ]
       },
       "usage": "射精シーン用アクションLoRA（v1.0）。このバージョンに trainedWords なし→射精の自然文記述で発火。推奨0.7（T2V/I2V、Turbo 8step 0.85併用）、R2Vは0.9。精液の質感描写が効く。音が大きすぎる場合は音の記述を明示。HMPenis/HMPussy と併用前提。",
       "prompt_examples": [
@@ -99,7 +100,7 @@
       "trigger_required": false,
       "fire_hint": "射精の瞬間・精液の質感・着地点（顔/胸等）を平易な直接表現で詳しく書く",
       "example_sources": [
-        "https://civitai.com/images/142880566 (by HearmemanAI, sample metadata)"
+        "https://civitai.com/images/142880566 (by HearmemanAI, sample metadata, modelVersionId=3329529)"
       ],
       "civitai_url": "https://civitai.com/models/2857340?modelVersionId=3329529",
       "source_verified": true
@@ -128,8 +129,8 @@
       "trigger_required": false,
       "fire_hint": "deepthroat / 喉奥まで咥える動作・喉の動きを時刻付きで具体的に記述",
       "example_sources": [
-        "https://civitai.com/images/141418039 (by K3NK, sample metadata)",
-        "https://civitai.com/images/141508461 (by K3NK, sample metadata)"
+        "https://civitai.com/images/141418039 (by K3NK, sample metadata, modelVersionId=3284171)",
+        "https://civitai.com/images/141508461 (by K3NK, sample metadata, modelVersionId=3284171)"
       ],
       "civitai_url": "https://civitai.com/models/2904180?modelVersionId=3284171",
       "source_verified": true
@@ -148,7 +149,11 @@
         "recommended": null,
         "range": null,
         "source": null,
-        "sample_metadata_weights": null
+        "sample_metadata_weights": [
+          0.65,
+          0.9,
+          1
+        ]
       },
       "usage": "映像+音声同時生成のディープスロートLoRA（FL2VA v0.2）。トリガー語なし（配布元に記載なし）。'maintain eye contact' が有効フレーズ。15秒まで動作維持。MMF/FFM対応。音量は小さめ（後で正規化）。シード差が大きいので書き直す前にリロール推奨。推奨強度は配布元に記載なし。",
       "prompt_examples": [
@@ -157,7 +162,7 @@
       "trigger_required": false,
       "fire_hint": "ディープスロート/フェラの動作を記述。'maintain eye contact' で目線固定",
       "example_sources": [
-        "https://civitai.com/images/140145548 (by yourmetalground, sample metadata)"
+        "https://civitai.com/images/140145548 (by yourmetalground, sample metadata, modelVersionId=3226989)"
       ],
       "civitai_url": "https://civitai.com/models/2476698?modelVersionId=3226989",
       "source_verified": true
@@ -179,8 +184,11 @@
         "range": null,
         "source": "model page",
         "sample_metadata_weights": [
+          0.3,
+          0.35,
           0.4,
-          0.7
+          0.7,
+          1
         ]
       },
       "usage": "指挿入オナニー（音声付き）。トリガー BEANFLK を全大文字で先頭に置く（必須）。H3では0.40で挿入が発火（サンプルメタデータでは0.7使用例も）。手が触れていない初期フレームからでも動作開始可。",
@@ -191,8 +199,8 @@
       "trigger_required": true,
       "fire_hint": "プロンプト先頭に BEANFLK（大文字）→場面→SHOTごとに指の挿入動作",
       "example_sources": [
-        "https://civitai.com/images/140840780 (by LORAGEEK, sample metadata)",
-        "https://civitai.com/images/140884710 (by LORAGEEK, sample metadata)"
+        "https://civitai.com/images/140840780 (by LORAGEEK, sample metadata, modelVersionId=3267091)",
+        "https://civitai.com/images/140884710 (by LORAGEEK, sample metadata, modelVersionId=3267091)"
       ],
       "civitai_url": "https://civitai.com/models/2829335?modelVersionId=3267091",
       "source_verified": true
@@ -213,20 +221,22 @@
         "recommended": null,
         "range": null,
         "source": null,
-        "sample_metadata_weights": null
+        "sample_metadata_weights": [
+          1
+        ]
       },
       "usage": "指挿入（Perfect Fingering）。作者記載のプロンプト先頭 sensual_fingering を使用。任意で潮吹き描写追加可。推奨強度は配布元に記載なし。",
       "prompt_examples": [
         "sensual_fingering, fingering her vagina with her two middle fingers, her fingers are sliding in and out of her vagina,",
         "optional : water is squirting out of her vagina each time her fingers slides out",
-        "detailed brown eyes detailed face, <Picture 1> (from [Shot 1]) is fully referenced. \n\nstart frame: A woman with long, white pink hair and a wolf cut , she is fully naked with a shaved pussy and small breasts, lying on her side and having two fingers inside her vagina. she is fingering herself, pushing her fingers inside her vagina, pulling them back out and repeating the motion. she has white skin, The composition emphasizes the woman’s figure and the tactile intimacy of the moment. behind her are purple led lights and a gaming pc, flickering slightly to enhance the atmosphere. \n\nshe is breathingly moaning all the time. \nshe moves her hand behind her hand and grabs one of her own breasts and squeezes and massages them. she starts to move her fingers in and out her vagina, stroking her inner walls of her pussy with each a hand in rythmic motions. she is masturbating in long forceful strokes; with every thrust inside her vagina , she lets out a soft moan, followed by a \"i wish that was you..\" her toes on her foot are curling inwards in pleasure. she keeps an expression of pleasure, looking down at her own vagina and closing her eyes.  wet sounds of skin on skin, fingers sliding into wet holes, fingers siliding into a wet vagina, can be heard with each thrust, while she slowly increases her movement speed with her hand on her vagina. she fingers herself faster and rougher.\nshe presses her legs together and moans loudly, signaling her orgasm. her toes curl  and she shakes a bit s …(truncated; full prompt at source)"
+        "sensual_fingering,\nfingering her vagina with her two middle fingers, her fingers are sliding in and out of her vagina,\nZoom in on the girl, zoom in on the belly,\n(female masturbation), perfect breasts ,   barefoot, medium breasts, ahegao, saliva,  rolling eyes, tongue out, heavy breathing , open mouth, thin black eyebrows,"
       ],
       "trigger_required": true,
       "fire_hint": "sensual_fingering, fingering her vagina with her two middle fingers, ... を書く",
       "example_sources": [
         "model page: https://civitai.com/models/2935787",
         "model page: https://civitai.com/models/2935787",
-        "https://civitai.com/images/142686012 (by ArtisticWaifu, sample metadata)"
+        "https://civitai.com/images/143535304 (by Ryma, sample metadata, modelVersionId=3323149)"
       ],
       "civitai_url": "https://civitai.com/models/2935787?modelVersionId=3323149",
       "source_verified": true
@@ -249,14 +259,14 @@
         "source": null,
         "sample_metadata_weights": null
       },
-      "usage": "自分の乳首を吸うLoRA（v0.1）。trainedWords は n1ppl3suck1ng だが作者サンプルプロンプトには含まれず、自然文の動作記述（固定カメラ・時刻指定）で発火している→トリガー必須かは不明。推奨強度は配布元に記載なし。",
+      "usage": "自分の乳首を吸うLoRA（v0.1）。trainedWords は n1ppl3suck1ng だが作者サンプルプロンプトには含まれず、自然文の動作記述（固定カメラ・時刻指定）で発火している→トリガーは任意（作者サンプル13件すべて未使用）。推奨強度は配布元に記載なし。",
       "prompt_examples": [
         "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] At 0.00s, the video begins with <Picture 1>, showing a woman standing in a warmly lit room. She has long dark hair and is wearing a black tank top. At 0.50s, she bends forward slightly, pulling her left breast toward her mouth with her right hand. At 1.00s, she takes her nipple into her mouth, beginning to suckle gently. Her facial expression becomes focused and pleasured. At 2.00s, while maintaining her grip on the nipple with her mouth, she begins to applaud slowly with both hands, clapping rhythmically. The breast remains firmly attached to her lips as she continues clapping. At 4.00s, she keeps sucking and clapping simultaneously, her body swaying slightly to the rhythm. The camera holds a medium shot capturing her upper body and facial expression.\n\noverall_soundscape: Soft sucking sounds, rhythmic clapping, gentle breathing, subtle moans of pleasure.\n\nnon_diegetic_music: A slow, sensual beat with deep bass pulses matching the clapping rhythm."
       ],
-      "trigger_required": null,
+      "trigger_required": false,
       "fire_hint": "胸を口元へ引き寄せ自分の乳首を吸う動作を時刻付きで記述（trainedWord: n1ppl3suck1ng）",
       "example_sources": [
-        "https://civitai.com/images/144655430 (by K3NK, sample metadata)"
+        "https://civitai.com/images/144655430 (by K3NK, sample metadata, modelVersionId=3383093)"
       ],
       "civitai_url": "https://civitai.com/models/2984096?modelVersionId=3383093",
       "source_verified": true
@@ -274,24 +284,28 @@
         "cumshot"
       ],
       "strength": {
-        "recommended": 0.7,
-        "range": [
-          0.7,
-          0.9
-        ],
-        "source": "model page",
-        "sample_metadata_weights": null
+        "recommended": null,
+        "range": null,
+        "source": "配布元に記載なし（V0.5）",
+        "sample_metadata_weights": [
+          0.4,
+          0.5,
+          0.65,
+          0.8,
+          0.9,
+          1.05
+        ]
       },
-      "usage": "HMCumshot の V0.5 版（ファイル名はV2だが中身はV0.5）。trainedWords: cumshot。モデルページの例文は hmcumshot3 で始まる（どの版のトリガーか明記なし）。推奨0.7（R2V 0.9）。",
+      "usage": "HMCumshot の V0.5（ファイル名はV2だがハッシュはV0.5=3238531）。V0.5の trainedWords は cumshot。hmcumshot3 はモデルページ共通の例文（現行V1.0時点）で、V0.5の説明には無い。V0.5ギャラリーでは hmcumshot3 先頭の例文流用も多い。V0.5説明: データセット拡大・角度増、精液の質感は主にプロンプト次第。推奨強度はV0.5に記載なし（サンプルメタデータ0.4–1.05）。",
       "prompt_examples": [
-        "hmcumshot3, he shoots a big load of thick white cum from his cock in five thick spurts. She is a petite blonde with her eyes shut and her mouth open. This pov shot shows her kneeling on a dark wood floor.",
-        "integrated_multimodal_description: [Shot 1] Live-action, grainy cellphone video with slight motion blur and warm shower light reflecting off wet tiles. A Chinese woman with long dark wet hair stands in the shower, water streaming down her naked body. She leans against the tiled wall, holding her penis in one hand and stroking it up and down rapidly in a rhythmic motion. The camera shakes slightly with small amplitude as water spray hits the lens; thick droplets cling to the shower glass, distorting parts of the frame, while steam fogs the edges. She lets out a quiet, muffled moan, head tilted back against the wall, eyes half-closed, her breasts glistening under the warm water with hard nipples pointing forward. At 00:03.000, her body tenses as her penis pulses and thick white cum shoots out in separate spurts: the first spurt is a heavy glossy rope that holds its shape mid-air with a wet sheen; the second and third are thinner but stringy, with long elastic strands webbing from the slit; the fourth and fifth are more clotted and starchy, creamy curds that bead and cling as they land on the glass close to the viewer.\n\noverall_soundscape: Her soft moans mix with the constant loud spray of the showerhead and water hitting the shower floor, with a slight echo from the tiled walls.\n\nnon_diegetic_music: N/A"
+        "integrated_multimodal_description: [Shot 1] Live-action, grainy cellphone video with slight motion blur and warm shower light reflecting off wet tiles. A Chinese woman with long dark wet hair stands in the shower, water streaming down her naked body. She leans against the tiled wall, holding her penis in one hand and stroking it up and down rapidly in a rhythmic motion. The camera shakes slightly with small amplitude as water spray hits the lens; thick droplets cling to the shower glass, distorting parts of the frame, while steam fogs the edges. She lets out a quiet, muffled moan, head tilted back against the wall, eyes half-closed, her breasts glistening under the warm water with hard nipples pointing forward. At 00:03.000, her body tenses as her penis pulses and thick white cum shoots out in separate spurts: the first spurt is a heavy glossy rope that holds its shape mid-air with a wet sheen; the second and third are thinner but stringy, with long elastic strands webbing from the slit; the fourth and fifth are more clotted and starchy, creamy curds that bead and cling as they land on the glass close to the viewer.\n\noverall_soundscape: Her soft moans mix with the constant loud spray of the showerhead and water hitting the shower floor, with a slight echo from the tiled walls.\n\nnon_diegetic_music: N/A",
+        "From the first frame her right fist is already sliding, a continuous full-fist handjob, pumping the thick shaft from the base all the way up over the swollen glans and back down again, long visible strokes, wrist twisting at the top, her knuckles traveling the full length of his cock without pausing. Her head bobs slightly in time with each stroke, a small up-and-down nod, chin lifting and dropping a little as she works his cock.\n\nFrom 0.00 to 3.00 seconds the handjob never stops: one long stroke after another, two to three pumps per second, her thick thighs shifting on the studio floor, belly rolling, tits jiggling, her head bobbing slightly, his hips pumping forward into her moving fist, cockhead close to her cheek and parted lips, her chin tilted up, teary blue eyes locked on his face. At 3.00 seconds exactly hmcumshot3 fires while her fist is still pumping: he shoots a huge excessive load of thick white cum from his cock in six heavy spurts. The texture is dense, pearlescent, ropey and viscous, glossy ropes that hold shape mid-air with a wet sheen, then stringy elastic strands webbing from the slit, then clotted creamy curds that bead and cling. First rope slaps across her forehead and into her black hair, second coats her right cheek and closed eyelid, third hits the bridge of her nose and upper lip, fourth dumps onto the tops of her huge tits and the sheer leotard cleavage, fifth and sixth splash her chin, throat and more hair in thick dripping globs. She flinches hard at impact and recoils, head jerking back, shoulders pulling away, putting a slight visible distance between his cockhead and her face so a small gap of air opens between the penis and her head. One eye squeezed shut, the other squinting, nose scrunched, a wet gasp leaving her open mouth, tits jiggling from the recoil, and her fist keeps stroking through every spurt, milking the shaft up and down as the cum lands across the new gap. From 3.00 to 10.00 seconds she holds that slight distance, head staying a little farther from his cock, still bobbing slightly as she pumps, extra ropes squeezing out onto her glazed face, tits and hair, cum dripping off her chin onto her breasts, his hips still pumping into her moving fist, one eye still shut, looking up at him. overall_soundscape: Close studio audio. Continuous wet skin-on-skin slick friction of her fist stroking his thick cock the whole clip, his heavy breathing and low grunts as his hips pump, her breathy moan then a sharp wet gasp and flinch when the first rope hits her face at three seconds, the tacky splat of thick cum landing on skin, hair and tits, more wet milking strokes through the load, studio room tone. non_diegetic_music: N/A"
       ],
-      "trigger_required": null,
-      "fire_hint": "cumshot を含め、射精と精液の質感を平易に書く",
+      "trigger_required": false,
+      "fire_hint": "cumshot（trainedWord）を含め、射精の瞬間・精液の質感・着地点を平易な直接表現で詳しく書く",
       "example_sources": [
-        "model page: https://civitai.com/models/2857340",
-        "https://civitai.com/images/140178656 (by lizhai, sample metadata)"
+        "https://civitai.com/images/140178656 (by lizhai, sample metadata, modelVersionId=3238531)",
+        "https://civitai.com/images/143866978 (by arniciv269, sample metadata, modelVersionId=3238531)"
       ],
       "civitai_url": "https://civitai.com/models/2857340?modelVersionId=3238531",
       "source_verified": true
@@ -314,7 +328,9 @@
         ],
         "source": "version page",
         "sample_metadata_weights": [
-          0.5
+          0.5,
+          0.7,
+          0.8
         ]
       },
       "usage": "汎用NSFW（AIO）V2.5。トリガー語なし。強度0.5–0.9（バージョン説明）。設定: Euler/simple, 12 steps, shift 6, Turbo LoRA 0.5。I2Vが特に良好。プロンプトの質が結果を左右、埋め込みワークフローの例を参考に。",
@@ -324,7 +340,7 @@
       "trigger_required": false,
       "fire_hint": "トリガー不要。性行為の内容・体位・カメラを詳細に書く（プロンプトの質が全て）",
       "example_sources": [
-        "https://civitai.com/images/141054460 (by simonishere, sample metadata)"
+        "https://civitai.com/images/141054460 (by simonishere, sample metadata, modelVersionId=3268303)"
       ],
       "civitai_url": "https://civitai.com/models/2834417?modelVersionId=3268303",
       "source_verified": true
@@ -356,7 +372,7 @@
       "trigger_required": null,
       "fire_hint": "vagina / pussy / anus を明示し、形状・陰毛・開き方・カメラ位置を描写",
       "example_sources": [
-        "https://civitai.com/images/147196098 (by HearmemanAI, sample metadata)"
+        "https://civitai.com/images/147196098 (by HearmemanAI, sample metadata, modelVersionId=3436891)"
       ],
       "civitai_url": "https://civitai.com/models/2846342?modelVersionId=3436891",
       "source_verified": true
@@ -379,6 +395,8 @@
         "source": null,
         "sample_metadata_weights": [
           0.35,
+          0.4,
+          0.7,
           1
         ]
       },
@@ -389,7 +407,7 @@
       "trigger_required": true,
       "fire_hint": "He is jerking off. / She is jerking off. と書き、手で竿をしごく動作を記述",
       "example_sources": [
-        "https://civitai.com/images/144263976 (by ArbuzAi, sample metadata)"
+        "https://civitai.com/images/144263976 (by ArbuzAi, sample metadata, modelVersionId=3320556)"
       ],
       "civitai_url": "https://civitai.com/models/2933701?modelVersionId=3320556",
       "source_verified": true
@@ -416,8 +434,11 @@
           0.3,
           1.0
         ],
-        "source": "model page",
-        "sample_metadata_weights": null
+        "source": "model page（バージョン共通の記載、版指定なし）",
+        "sample_metadata_weights": [
+          0.5,
+          0.7
+        ]
       },
       "usage": "汎用NSFWアンロック。コアトリガー: nude, topless, bare breasts, naked, completely unclothed（被写体・動作記述に混ぜる）。強度0.3–1（開始0.5）。Euler_ancestral + 4–8 turbo steps。",
       "prompt_examples": [
@@ -426,7 +447,7 @@
       "trigger_required": false,
       "fire_hint": "nude / topless / bare breasts 等を被写体記述に入れる",
       "example_sources": [
-        "https://civitai.com/images/143199458 (by kenpechi, sample metadata)"
+        "https://civitai.com/images/143199458 (by kenpechi, sample metadata, modelVersionId=3310653)"
       ],
       "civitai_url": "https://civitai.com/models/2925727?modelVersionId=3310653",
       "source_verified": true
@@ -448,7 +469,8 @@
         "range": null,
         "source": null,
         "sample_metadata_weights": [
-          1
+          1,
+          2
         ]
       },
       "usage": "音声専用：日本語の喘ぎ声。トリガー jpnMoans。セリフは日本語で（英語は未検証）。推奨強度は配布元に記載なし（サンプルメタデータで1.0使用）。",
@@ -464,7 +486,7 @@
         "model page: https://civitai.com/models/2902825",
         "model page: https://civitai.com/models/2902825",
         "model page: https://civitai.com/models/2902825",
-        "https://civitai.com/images/141356414 (by TwoMoreLurker, sample metadata)"
+        "https://civitai.com/images/141356414 (by TwoMoreLurker, sample metadata, modelVersionId=3282509)"
       ],
       "civitai_url": "https://civitai.com/models/2902825?modelVersionId=3282509",
       "source_verified": true
@@ -482,15 +504,12 @@
         "A fifteen-second photoreal time freeze video."
       ],
       "strength": {
-        "recommended": 1.1,
-        "range": [
-          0.8,
-          1.5
-        ],
-        "source": "model page (high-noise)",
+        "recommended": null,
+        "range": null,
+        "source": "配布元に記載なし（H3版）",
         "sample_metadata_weights": null
       },
-      "usage": "時間停止。作者推定トリガー文 'A fifteen-second photoreal time freeze video.'。強度 high-noise 0.8–1.5（作者1.1）、low-noise 1.5–2（作者1.7）。性器描写は弱いので他LoRA（ペニス0.5–1）併用。",
+      "usage": "時間停止（minimaxh3-timefreeze版）。作者推定トリガー文 'A fifteen-second photoreal time freeze video.'（学習キャプションで最頻出のため、と作者）。H3は元々time freeze概念を持ち、151本の15秒動画で強化した実験版。性器描写が弱いので他LoRA併用推奨。H3版の推奨強度は配布元に記載なし。",
       "prompt_examples": [
         "integrated_multimodal_description: The target video is photoreal live-action time freeze. [Shot 1] Live-action, photoreal, time freeze, a static top-down shot from directly above frames a young adult woman with wet blonde hair, blue eyes, glossy sweaty wet skin, ruined makeup, and runny mascara streaking her face, kneeling on a bare floor with her face turned upward and staring intensely into the camera. Only the woman is time-frozen; her body, hair, skin, facial muscles, and eyelids are locked in place, but she remains conscious and experiences what happens to her, so she cannot close her eyes. Four erect adult penises enter from the sides of the frame, two on the left side and two on the right side, all angled downward and aimed directly at her eyes. The cum produced by each penis is identical in color, density, gloss, and volume to the thick white goo that lands on her face, and the cum does not behave like ordinary liquid: it is sticky, viscous, ropey, and dense, so each strand, rope, and clump hits her face and stays glued there, stacking in thick ridges. At 00:00.000 her upper eyelids are lifted and open, her lower eyelids are open, her blue irises are clear, and the four penises are taut and aimed at her eyes. At 00:01.000 the two left-side penises begin shooting copious thick white cum, and sticky viscous strands hit her forehead, brows, and the skin around her open eyes while her upper eyelids remain lifted and open, her eyes are open, and her blue irises are still v …(truncated; full prompt at source)",
         "This is a striking masterpiece in the style of Cinema Natural Shot, taken with Kodak Vision3 250D film, the aesthetic is high, masterpiece of cinematography, professional footage. Featuring a Young adult woman, medium long frozen in the middle of being whipped by strong wind hair, tousled bun hairstyle with blunt bangs, beautiful, thin lips, petite physique. Wearing Street Wear, youth outfit, headphones resting around neck, mint geometric graphic varsity jacket over tee; chain necklace; canvas tote over shoulder, cargo pants, platform sneakers. Running, as if late for something. Shown through Long Shot, distant framing where the Young woman occupies only a small portion of the frame, shown within substantial surrounding environment. Scene Time Stop, the scene time freezes as if a button was pressed，the Young woman is not moving, expression frozen, unblinking and unmoving eyes, inactive, maintaining the pose, the camera showcasing the Young woman perfectly frozen in the moment. Commute Scene, everyday urban setting, city crosswalk, commuters of varied ages, hair colors, hairstyles, and body types - all frozen in time in the middle of their actions - filling the scene in layered foreground, background and deeper in the distance; solo, in pairs and small groups with purpose, some chatting, others checking their phones; particles frozen in time give long exposure feel looking like pool of stars suspended in the air. Particles suspended in the air reminding of stars."
@@ -498,8 +517,8 @@
       "trigger_required": null,
       "fire_hint": "A fifteen-second photoreal time freeze video. で始め、誰が停止し誰が動くかを書く",
       "example_sources": [
-        "https://civitai.com/images/144843277 (by cgibson, sample metadata)",
-        "https://civitai.com/images/145058771 (by koto2091187, sample metadata)"
+        "https://civitai.com/images/144843277 (by cgibson, sample metadata, modelVersionId=3383271)",
+        "https://civitai.com/images/145058771 (by koto2091187, sample metadata, modelVersionId=3383271)"
       ],
       "civitai_url": "https://civitai.com/models/2437696?modelVersionId=3383271",
       "source_verified": true
@@ -521,6 +540,8 @@
         "range": null,
         "source": null,
         "sample_metadata_weights": [
+          0.4,
+          0.8,
           1
         ]
       },
@@ -531,7 +552,7 @@
       "trigger_required": true,
       "fire_hint": "She slides two fingers into her vagina. She moves her fingers in and out of her vagina. をそのまま書く",
       "example_sources": [
-        "https://civitai.com/images/143355385 (by iPiKo, sample metadata)"
+        "https://civitai.com/images/143355385 (by iPiKo, sample metadata, modelVersionId=3342915)"
       ],
       "civitai_url": "https://civitai.com/models/2923170?modelVersionId=3342915",
       "source_verified": true
@@ -555,18 +576,21 @@
           0.8
         ],
         "source": "model page",
-        "sample_metadata_weights": null
+        "sample_metadata_weights": [
+          0.35,
+          0.5,
+          0.95,
+          1
+        ]
       },
-      "usage": "動きブースター（アニメ寄り、V2は音声対応）。トリガー dynv2。推奨0.6–0.8（開始0.7）。実写的な物理描写を多用すると3D寄りになるので、アニメのように書く。2D/アニメ系NSFW LoRAと併用推奨。",
+      "usage": "H3 Motion Booster V2（V0.2, 実写版）。トリガー dynv2。推奨0.6–0.8（開始0.7）。I2V推奨：正しいポーズの参照画像から、動きの方向・リズム・接触・反動・音を記述。音声対応（喘ぎは overall_soundscape でなくアクション内のセリフとして書くと口が動く）。",
       "prompt_examples": [
-        "dynv2, [Shot 1] (S1) is etc. on top of (S2).",
         "dynv2. For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nsummary:\n[keyframe completion + reference generation] A 6-second high-speed explicit sex scene. The woman remains on top in a cowgirl position and drives continuous rapid vertical hip motion while being penetrated. Soft muffled moans throughout. Maximum speed from the first frame.\n\n\n画面里一个穿着女仆装的白色短发女孩。\n女孩被男人抱着以“全纳尔逊式”的性爱姿势与男人进行性爱。\n男人不断有力的将阴茎插进女孩的阴道里，女孩的身体和乳房随着男人的动作不断上下晃动。\n\ndetailed_description:\nThe target video is a continuous 6-second explicit sex scene at real-time speed with no slow motion.\n[Shot 1] The shot opens matching the reference pose: <Subject 1> is straddling <Subject 2> in a full nelson, looking down toward the camera. His cock is already fully inserted deep inside her anus and stays clearly penetrating her for the entire duration. From the very first frame she drives continuous rapid vertical hip lifts and drops with short aggressive strokes, minimal dwell time, and instant rebound. Maximum high-cadence rhythm is maintained without any build-up. Her bare breasts bounce and shake heavily with every impact. She lets out continuous soft muffled moans and breathy whimpers while keeping her eyes on the camera. The camera holds a low-angle full-body view looking up at her, clearly showing her face, bouncing breasts, and the rapid wet penetration through 00:6.000.\n\noverall_soundscape:\nDense rhythmic wet skin-on-skin impacts are tightly synchronized with …(truncated; full prompt at source)"
       ],
       "trigger_required": true,
-      "fire_hint": "dynv2 を先頭に、動きをアニメ的に（実写的物理表現を避けて）記述",
+      "fire_hint": "dynv2 を入れ、動きの方向・リズム・接触・反動を具体的に記述（I2V推奨）",
       "example_sources": [
-        "model page: https://civitai.com/models/2840146",
-        "https://civitai.com/images/142181756 (by LSZY, sample metadata)"
+        "https://civitai.com/images/142181756 (by LSZY, sample metadata, modelVersionId=3228867)"
       ],
       "civitai_url": "https://civitai.com/models/2840146?modelVersionId=3228867",
       "source_verified": true
@@ -597,7 +621,7 @@
       "trigger_required": false,
       "fire_hint": "トリガー不要。性行為を自然文で詳細に記述",
       "example_sources": [
-        "https://civitai.com/images/141054460 (by simonishere, sample metadata)"
+        "https://civitai.com/images/141054460 (by simonishere, sample metadata, modelVersionId=3266628)"
       ],
       "civitai_url": "https://civitai.com/models/2856467?modelVersionId=3266628",
       "source_verified": true
@@ -618,8 +642,10 @@
           0.2,
           1.0
         ],
-        "source": "model page",
-        "sample_metadata_weights": null
+        "source": "model page（バージョン共通の記載、版指定なし）",
+        "sample_metadata_weights": [
+          1
+        ]
       },
       "usage": "汎用リアル系NSFW＋音声（V5）。トリガー語なし。強度0.2–1。Turboで見た目が変わるので調整。V5はREF2VA（参照画像）にも対応。",
       "prompt_examples": [
@@ -628,7 +654,7 @@
       "trigger_required": false,
       "fire_hint": "トリガー不要。性行為を自然文で詳細に記述（REF2VA/FL2VA対応）",
       "example_sources": [
-        "https://civitai.com/images/146410100 (by lewd_animator, sample metadata)"
+        "https://civitai.com/images/146410100 (by lewd_animator, sample metadata, modelVersionId=3416478)"
       ],
       "civitai_url": "https://civitai.com/models/2856467?modelVersionId=3416478",
       "source_verified": true
@@ -653,14 +679,12 @@
       },
       "usage": "乳首を指先で弾く・つまむ。トリガー語なし。強度1.0（他は未検証、溶けたら下げる）。吸う動作は不安定→吸引系LoRAと併用。",
       "prompt_examples": [
-        "A beautiful woman with smooth flawless glowing skin and large perfectly shaped soft breasts is topless. She uses both hands to gently pinch and slowly roll her own beautifully formed, fully erect, firm and symmetrical nipples between her fingertips.",
         "integrated_multimodal_description:\nA beautiful woman with smooth flawless glowing skin and large perfectly shaped soft breasts is topless. She teases both nipples with only her index fingertips, one index fingertip on each nipple, flicking and lightly rubbing them. Both nipples are fully erect, firm and symmetrical, with smooth rounded tips and soft natural pink areolas. Soft natural lighting, medium close-up on her chest and index fingertips. Both nipples stay visible. The background stays the same as the first frame. Same room, same wall, same lighting.\n\noverall_soundscape:\nSoft breathing and quiet low moaning.\n\nnon_diegetic_music:\nNone."
       ],
       "trigger_required": false,
       "fire_hint": "指先で乳首を弾く/つまむ/転がす動作を具体的に書く",
       "example_sources": [
-        "model page: https://civitai.com/models/2888071",
-        "https://civitai.com/images/141767623 (by 1and3run, sample metadata)"
+        "https://civitai.com/images/141767623 (by 1and3run, sample metadata, modelVersionId=3295051)"
       ],
       "civitai_url": "https://civitai.com/models/2888071?modelVersionId=3295051",
       "source_verified": true
@@ -695,7 +719,7 @@
       "trigger_required": true,
       "fire_hint": "開脚で座りオナニー→ She has an orgasm that causes her pussy and anus to have strong orgasmic contractions... の流れで書く",
       "example_sources": [
-        "https://civitai.com/images/142294945 (by anonymist, sample metadata)"
+        "https://civitai.com/images/142294945 (by anonymist, sample metadata, modelVersionId=3311155)"
       ],
       "civitai_url": "https://civitai.com/models/2926109?modelVersionId=3311155",
       "source_verified": true
@@ -725,12 +749,14 @@
       },
       "usage": "パンツの中に手を入れてのオナニー。トリガー文3種。推奨強度は配布元に記載なし（サンプルメタデータで0.5–0.7）。元作者BAN、CivArchiveで確認。",
       "prompt_examples": [
-        "integrated_mult_description:\n    \n    [Shot 1] single continuous cinematic, yet candid shot from above of a 24-year old woman on her bed. The shot begins in complete silence, exactly as depicted in <Image 1>. The camera is handheld and static, with subtle handheld movement, but no tilt, pan, or zoom.\n    \n    Subject: 24-year-old college woman as depicted in <Image 1>. She has soft, smooth skin and a cute face without shiny or wet spots.\n    \n    The cute 24-year old woman's hand is under the waistband of her panties, fingering herself under her panties. She continues masturbating herself under her panties throughout the video, with her fingers moving faster and then her entire moving up and down slightly. Her breasts jiggle naturally with each arm movement.\n    \n    [0s - 4s] Her other hand is gripping the corner of her white pillow.\n    \n    [4s - 8s] The hand gripping the pillow moves so it is playing with her own breast and nipple.\n    \n    [10s - 11s] The woman's masturbation is very rapid. Her moans are intense as she experiences orgasm.\n    \n    The woman's face, body, hair, clothes, and her surroundings are governed by <Image 1>.\n    \n    overall_soundscape: Only the sound of her sexy heavy breathing, moaning, and whimpering.\n        \n    non_diegetic_music: N/A. None. No music. No non-diegetic sounds."
+        "integrated_mult_description:\n    \n    [Shot 1] single continuous cinematic, yet candid shot from above of a 24-year old woman on her bed. The shot begins in complete silence, exactly as depicted in <Image 1>. The camera is handheld and static, with subtle handheld movement, but no tilt, pan, or zoom.\n    \n    Subject: 24-year-old college woman as depicted in <Image 1>. She has soft, smooth skin and a cute face without shiny or wet spots.\n    \n    The cute 24-year old woman's hand is under the waistband of her panties, fingering herself under her panties. She continues masturbating herself under her panties throughout the video, with her fingers moving faster and then her entire moving up and down slightly. Her breasts jiggle naturally with each arm movement.\n    \n    [0s - 4s] Her other hand is gripping the corner of her white pillow.\n    \n    [4s - 8s] The hand gripping the pillow moves so it is playing with her own breast and nipple.\n    \n    [10s - 11s] The woman's masturbation is very rapid. Her moans are intense as she experiences orgasm.\n    \n    The woman's face, body, hair, clothes, and her surroundings are governed by <Image 1>.\n    \n    overall_soundscape: Only the sound of her sexy heavy breathing, moaning, and whimpering.\n        \n    non_diegetic_music: N/A. None. No music. No non-diegetic sounds.",
+        "masterpiece, best quality, highly detailed, sharp focus, 1girl, 1boy,\nBREAK, 1girl, AnnaXL, ((solo)),orange hair, blue eyes, freckles, laying on her back on a bed, watching porn on television, getting aroused, wet pussy, aggressively fingering own pussy, female masturbation, screaming, realistic, anus, close-up,mole on thigh, in a luxury hotel room (pillows, white bed linens), low angle, wide angle perspective, She is wearing a pastel pink lace bra and panties, panties pulled aside, exposed vagina, She rubs her vagina. nighttime, cinematic lighting, depth of field, raw photo, photorealistic, immersive, (volumetric fog), elegant atmosphere"
       ],
       "trigger_required": true,
       "fire_hint": "She slides her hand in her panties. She rubs her vagina. と書く",
       "example_sources": [
-        "https://civitai.com/images/141445464 (by nadja320, sample metadata)"
+        "https://civitai.com/images/141445464 (by nadja320, sample metadata, modelVersionId=3205014)",
+        "https://civitai.com/images/140101514 (by SuedeJackson2020, sample metadata, modelVersionId=3205014)"
       ],
       "civitai_url": "https://civitai.com/models/2839440?modelVersionId=3205014",
       "source_verified": true
@@ -755,6 +781,9 @@
         ],
         "source": "model page",
         "sample_metadata_weights": [
+          0.45,
+          0.5,
+          0.7,
           0.75,
           1
         ]
@@ -766,7 +795,7 @@
       "trigger_required": true,
       "fire_hint": "They kiss passionately. と書く",
       "example_sources": [
-        "https://civitai.com/images/145390987 (by NoDeadLine, sample metadata)"
+        "https://civitai.com/images/145390987 (by NoDeadLine, sample metadata, modelVersionId=3289478)"
       ],
       "civitai_url": "https://civitai.com/models/2908508?modelVersionId=3289478",
       "source_verified": true
@@ -789,8 +818,15 @@
         "range": null,
         "source": null,
         "sample_metadata_weights": [
+          0.45,
           0.5,
-          0.6
+          0.55,
+          0.6,
+          0.65,
+          0.7,
+          0.75,
+          0.9,
+          1
         ]
       },
       "usage": "男性器の解剖学補正（v2）。トリガー HMPenis を先頭に（モデル説明）、バージョンtrainedWordsは penis。向き Front(POV)/Back/Side を明記。中〜大サイズ向き。推奨強度は配布元に記載なし（サンプルメタデータで0.5–0.6）。",
@@ -800,7 +836,7 @@
       "trigger_required": true,
       "fire_hint": "HMPenis で始め、向き（Front/Back/Side）を指定",
       "example_sources": [
-        "https://civitai.com/images/140235121 (by HearmemanAI, sample metadata)"
+        "https://civitai.com/images/140235121 (by HearmemanAI, sample metadata, modelVersionId=3247473)"
       ],
       "civitai_url": "https://civitai.com/models/2849923?modelVersionId=3247473",
       "source_verified": true
@@ -820,8 +856,11 @@
       "strength": {
         "recommended": 1.0,
         "range": null,
-        "source": "model page (stills file)",
-        "sample_metadata_weights": null
+        "source": "model page（バージョン共通の記載、版指定なし）",
+        "sample_metadata_weights": [
+          0.9,
+          0.95
+        ]
       },
       "usage": "女性器補正 V1（静止画学習）。trainedWords: pussy。静止画版は1.0（動作の保持には動画版 0.35 を併用、と作者）。シェーブ/有毛・肛門にも対応。",
       "prompt_examples": [
@@ -830,7 +869,7 @@
       "trigger_required": null,
       "fire_hint": "pussy を含め、女性器の形状・陰毛・角度を具体的に描写",
       "example_sources": [
-        "https://civitai.com/images/140561203 (by HearmemanAI, sample metadata)"
+        "https://civitai.com/images/140561203 (by HearmemanAI, sample metadata, modelVersionId=3252213)"
       ],
       "civitai_url": "https://civitai.com/models/2846342?modelVersionId=3252213",
       "source_verified": true
@@ -860,12 +899,14 @@
       },
       "usage": "3D/CGI風の激しいセックス。trainedWordsの長文をプロンプト先頭に。推奨強度は配布元に記載なし（サンプルメタデータで0.3–1.0、0.8が多い）。",
       "prompt_examples": [
-        "Realistic, detailed, CGI video depicting a rough, intense, penetrative sex with male character performing, intense, fast thrusting motion penetrating female character with his erect penis\n\nFantasy game style, scene set in a dark forest at night with moon in the background, the woman is pale blonde elf, man is green skinned orc.\nOrc man hold waist of the elf with both of his hands intense strong grip around elf waist, helping her move up and down, on his penis.\nElf remains on top in a riding position, straddling the orc man. His cock is already fully inserted deep inside her vagina and stays clearly penetrating her for the entire duration. From the very first frame she drives extremely rapid, high-cadence vertical hip motion with short, aggressive strokes — minimal dwell time at the bottom, instant separation, and immediate rebound. The pace is blistering and relentless with zero build-up, maximum visible speed maintained from start to finish. Her hips lift and drop in a continuous, dense rhythm while her breasts bounce heavily with every impact. extremely rapid high-cadence pelvic motion, compact short-stroke movement, instant rebound, uninterrupted maximum speed, no slow-motion, no acceleration phase. Clear wet penetration is visible as the cock slides rapidly in and out of her vaginal opening. overall_soundscape: Loud, dense, rhythmic wet skin-on-skin impacts are tightly synchronized with every rapid stroke. Heavier wet slaps land on the deeper thrusts. Continuous heavy bre …(truncated; full prompt at source)"
+        "Realistic, detailed, CGI video depicting a rough, intense, penetrative sex with male character performing, intense, fast thrusting motion penetrating female character with his erect penis\n\nFantasy game style, scene set in a dark forest at night with moon in the background, the woman is pale blonde elf, man is green skinned orc.\nOrc man hold waist of the elf with both of his hands intense strong grip around elf waist, helping her move up and down, on his penis.\nElf remains on top in a riding position, straddling the orc man. His cock is already fully inserted deep inside her vagina and stays clearly penetrating her for the entire duration. From the very first frame she drives extremely rapid, high-cadence vertical hip motion with short, aggressive strokes — minimal dwell time at the bottom, instant separation, and immediate rebound. The pace is blistering and relentless with zero build-up, maximum visible speed maintained from start to finish. Her hips lift and drop in a continuous, dense rhythm while her breasts bounce heavily with every impact. extremely rapid high-cadence pelvic motion, compact short-stroke movement, instant rebound, uninterrupted maximum speed, no slow-motion, no acceleration phase. Clear wet penetration is visible as the cock slides rapidly in and out of her vaginal opening. overall_soundscape: Loud, dense, rhythmic wet skin-on-skin impacts are tightly synchronized with every rapid stroke. Heavier wet slaps land on the deeper thrusts. Continuous heavy bre …(truncated; full prompt at source)",
+        "This is a cgi video depicting a rough, intense, penetrative sex with male character performing, intense, fast thrusting motion penetrating female character with his erect penis captures a dynamic, intimate moment between a woman and a man in a dimly lit, industrial-style room. The woman, dressed in a green sleeveless leotard with black straps, black combat boots, and a red headband, is bent over a metal railing. Her blonde hair is tied in a two long braids and man is pulling them as he penetrates her. She has green tattoos on her upper thighs and is wearing black garter straps. Her facial expression is one of intense concentration or effort, with her mouth slightly open and eyes partially closed. The man, positioned behind her, is partially visible. He is wearing a dark red shirt and black sneakers with white soles. His right arm is extended, gripping the woman's left hip, while his left hand is out of the frame. The man's skin is light, and his facial features are mostly obscured due to the angle and his position. In the background, there is a large, arched window with blurred, illuminated city lights outside. The room's floor is made of metal or concrete, adding to the industrial feel. The photograph is slightly blurred, emphasizing the movement and intensity of the moment. The overall color palette is muted, with greens, blacks, and reds standing out against the gray and brown background."
       ],
       "trigger_required": true,
       "fire_hint": "先頭にトリガー文（CGI video depicting a rough, intense, penetrative sex ...）を入れ、体位を記述",
       "example_sources": [
-        "https://civitai.com/images/145556691 (by Shrekman17, sample metadata)"
+        "https://civitai.com/images/145556691 (by Shrekman17, sample metadata, modelVersionId=3402996)",
+        "https://civitai.com/images/145546148 (by Shrekman17, sample metadata, modelVersionId=3402996)"
       ],
       "civitai_url": "https://civitai.com/models/1332917?modelVersionId=3402996",
       "source_verified": true
@@ -884,7 +925,12 @@
         "recommended": null,
         "range": null,
         "source": null,
-        "sample_metadata_weights": null
+        "sample_metadata_weights": [
+          0.5,
+          0.55,
+          0.6,
+          0.7
+        ]
       },
       "usage": "オナニー＋潮吹き（v2.0、実験的）。トリガー語なし。本体の推奨強度は配布元に記載なし。Turbo LoRA 0.5、HMPussy 0.4–0.8 を併用（必須級）。",
       "prompt_examples": [
@@ -893,7 +939,7 @@
       "trigger_required": false,
       "fire_hint": "指挿入オナニー→潮吹きを具体的に描写。HMPussy併用",
       "example_sources": [
-        "https://civitai.com/images/142272829 (by HearmemanAI, sample metadata)"
+        "https://civitai.com/images/142272829 (by HearmemanAI, sample metadata, modelVersionId=3310312)"
       ],
       "civitai_url": "https://civitai.com/models/2893742?modelVersionId=3310312",
       "source_verified": true
