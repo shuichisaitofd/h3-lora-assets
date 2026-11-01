@@ -1,6 +1,6 @@
 {
   "release": "h3-loras-v1",
-  "updated": "2026-10-31",
+  "updated": "2026-11-02",
   "loras": [
     {
       "filename": "BJ_v3.safetensors",
@@ -73,36 +73,35 @@
       "source_verified": true
     },
     {
-      "filename": "Cumshot_HM_v1.safetensors",
-      "sha256": "634c39cfcbfd9421a2d7b5adc62573fc232384c4c75e003c2e11d3408ad0765c",
+      "filename": "HMCumshot_V2.safetensors",
+      "sha256": "d2fa3bc9a5303db16099179d1e1f3897caadb93e7168f3402f440a18746ee788",
       "size": 310168344,
-      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Cumshot_HM_v1.safetensors",
-      "name": "HMCumshot v1.0",
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/HMCumshot_V2.safetensors",
+      "name": "HMCumshot - Cumshot LoRA for MiniMax H3 V2",
       "author": "HearmemanAI",
-      "source_url": "https://civarchive.com/models/2857340?modelVersionId=3329529",
+      "source_url": "https://civarchive.com/models/2857340?modelVersionId=3441237",
       "base_model": "MiniMax H3",
-      "triggers": [],
+      "triggers": [
+        "cumshot"
+      ],
       "strength": {
-        "recommended": 0.7,
-        "range": [
-          0.7,
-          0.9
-        ],
-        "source": "model/version page",
-        "sample_metadata_weights": [
-          0.7
-        ]
+        "recommended": null,
+        "range": null,
+        "source": "配布元に記載なし（V2。モデルページの0.7/R2V 0.9はv1.0の推奨設定）",
+        "sample_metadata_weights": null
       },
-      "usage": "射精シーン用アクションLoRA（v1.0）。このバージョンに trainedWords なし→射精の自然文記述で発火。推奨0.7（T2V/I2V、Turbo 8step 0.85併用）、R2Vは0.9。精液の質感描写が効く。音が大きすぎる場合は音の記述を明示。HMPenis/HMPussy と併用前提。",
+      "usage": "射精シーン用アクションLoRA（V2）。データセット拡大で対応ポジションが増えた。トレーニング方針はv1と同じ。Female POV（女性視点）は弱い（ときどき効く）。trainedWords は cumshot だが作者V2サンプルには含まれず、射精の自然文記述で発火。推奨強度は配布元に記載なし（サンプルにも強度メタデータなし）。",
       "prompt_examples": [
-        "integrated_multimodal_description: [Shot 1] SMARTPHONE POV + LOW ANGLE + HARSH FLASH: shot vertically on a handheld smartphone held at the man's crotch level, front-facing LED flash blasting a small, harsh, uneven pool of white light that hotspots on her forehead, cheekbones, and the glistening shaft of his erect penis while the purple bedroom walls behind her fall into muddy underexposed shadow. Heavy digital grain, slight rolling-shutter wobble, compressed lowlight noise, greenish-magenta chroma smear in the corners, tiny lens smudge softening the highlight bloom. The frame is dominated in its lower two-thirds by his thick, veined erect penis pointing straight up toward the camera, foreshortened huge by the wide phone lens, the flushed pink head shining wet with a bead of pre-cum at the slit. Above it, filling the upper third, is a petite adult blonde woman (S1), completely naked, kneeling between his thighs on rumpled pale sheets, small pert breasts with pink nipples, pale freckled skin, pigtailed blonde hair tied with a black hair band, thin silver necklace resting on her collarbone. Her small right hand grips the base of his cock, fingers barely meeting around the girth, and she strokes slowly upward with a firm wet squeeze, wrist twisting at the top, thumb dragging over the ridge of the head, foreskin sliding, a shiny film of lube stretching between her knuckles. She looks straight down the lens with big pale eyes, lips parted in a soft smirk. Two more slow deliberate s …(truncated; full prompt at source)"
+        "integrated_multimodal_description: [Shot 1] She lies on her back on her bed, arms raised, stroking two thick, veiny erect cocks, one in each small fist, pumping fast twice a second, while two more men kneel lower beside her waist stroking themselves over her body. OVERHEAD, FIXED CAM, LOW-FI: dim, murky, low-quality webcam-style footage from about 1.5 meters, slightly off-center and tilted. Heavy noise crawls in the shadows, the blacks are crushed, the colors are muddy, the image is blocky and compressed, and the focus is soft. A bold cursive hot-pink watermark reading \"CumQueens\" sits in the bottom-left corner. One dim warm bedside lamp shines from off frame left and a cold blue laptop glow comes from the right. A 24-year-old white woman with a petite, slim adult frame, about 150 cm tall: a narrow waist, flared hips and perky natural breasts with pink nipples. She has long, messy chestnut-brown hair, smudged eyeliner, flushed tanned skin with a sweat sheen, a pink lace bra pulled down and fishnet thigh-highs. Her shaved armpits are exposed. Four large naked men around 28 kneel around her on tangled grey sheets, two by her head and two by her waist, cropped at the frame edges. At 00:00 she looks up into the camera, giggles, and says (S1, breathy and playful): <d>[English] <laughs> Oh my god... <pause> all of you?</d> At 00:03 the lower-left man spurts: a long, thick, pearly-white rope across her stomach and a creamy glob that pools in her navel. At 00:04 the left cock in her fist jerks, ropes slap her armpit and breast, and a slick, translucent string dribbles off the tip. At 00:06 the lower-right man splatters her breasts in sticky droplets and a heavy rope across her nipple. At 00:07 the right cock in her fist fires: a long rope across her nose, a dense spurt onto her lips and tongue, and a thick ooze onto her chin. Glossy strands web her lips and stringy drips stretch off her chin. She flinches at each one, giggling harder, then bursts into breathless laughter, with cum stringing between her fingers. It ends on her wink, laughing and covered.\n\noverall_soundscape: Thin, hissy, compressed audio. Overlapping wet stroking close to the mic from 00:00. Four male groans at 00:03, 00:04, 00:06 and 00:07, mid-distance, each followed by wet splats. Her giggles rise after each one, with full laughter from 00:08. Sticky finger sounds and bedspring creaks.\n\nnon_diegetic_music: N/A",
+        "integrated_multimodal_description: [Shot 1] FIRST-PERSON POV + HARSH FLASH: handheld wide footage from his chest looking straight down between his thighs, framed tight. A small, hard white flash pool blasts her pussy, inner thighs and his glans, and the edges fall into grainy, underexposed shadow on a floral-print sheet. His thick, veiny, circumcised cock in his right fist rises from the bottom center, huge and foreshortened, its swollen pink head shiny. Just past it, a 24-year-old white woman lies on her back with her legs spread wide, her pale inner thighs flushed red. Her shaved pussy is puffy, with swollen pink inner lips glistening wet. Her left hand, with short lilac nails, rubs her clit in fast circles at about three per second, and her thighs twitch. She moans (S1, off-screen, breathy and needy, 00:02.0–00:04.0): <d>[English] <pants> Right there... <pause> <softer>cum all over it.</softer></d> At 00:05 his cock throbs and seven heavy spurts of semen erupt. The cum is thick, opaque milky-white at the core of each rope, thinning to translucent, watery-clear edges, with a glossy wet shine that flares in the flash. Spurt one is a long, dense rope that slaps across her clit and belly. Spurt two floods her spread lips. Spurts three and four are stringy and elastic, webbing between her fingers. Spurts five through seven pump out gelatinous, clumpy globs that pile up on her mound. A huge pool of white semen with clear, runny edges sags down between her lips and drips in slow, viscous streams toward her ass. Sticky strands stretch and snap as she keeps rubbing it in. The shot holds on the drenched mess.\n\noverall_soundscape: Fast, wet clicking from her rubbing, his stroking slick, her rising moans, a deep groan at 00:05, seven wet splats, thick, sticky squelching, then her shaky exhale.\n\nnon_diegetic_music: N/A"
       ],
       "trigger_required": false,
-      "fire_hint": "射精の瞬間・精液の質感・着地点（顔/胸等）を平易な直接表現で詳しく書く",
+      "fire_hint": "射精の瞬間・精液の量/質感・着地点・体位を平易な直接表現で詳しく書く（cumshot は任意。Female POVは避ける）",
       "example_sources": [
-        "https://civitai.com/images/142880566 (by HearmemanAI, sample metadata, modelVersionId=3329529)"
+        "https://civitai.com/images/147423994 (by HearmemanAI, sample metadata, modelVersionId=3441237)",
+        "https://civitai.com/images/147425235 (by HearmemanAI, sample metadata, modelVersionId=3441237)"
       ],
-      "civitai_url": "https://civitai.com/models/2857340?modelVersionId=3329529",
+      "civitai_url": "https://civitai.com/models/2857340?modelVersionId=3441237",
       "source_verified": true
     },
     {
@@ -269,45 +268,6 @@
         "https://civitai.com/images/144655430 (by K3NK, sample metadata, modelVersionId=3383093)"
       ],
       "civitai_url": "https://civitai.com/models/2984096?modelVersionId=3383093",
-      "source_verified": true
-    },
-    {
-      "filename": "HMCumshot_V2.safetensors",
-      "sha256": "1a5b7948bb97f27737e62c3dd5497a3afb77517f230787f45e45c7d8fe3dc24d",
-      "size": 626294968,
-      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/HMCumshot_V2.safetensors",
-      "name": "HMCumshot V0.5",
-      "author": "HearmemanAI",
-      "source_url": "https://civarchive.com/models/2857340?modelVersionId=3238531",
-      "base_model": "MiniMax H3",
-      "triggers": [
-        "cumshot"
-      ],
-      "strength": {
-        "recommended": null,
-        "range": null,
-        "source": "配布元に記載なし（V0.5）",
-        "sample_metadata_weights": [
-          0.4,
-          0.5,
-          0.65,
-          0.8,
-          0.9,
-          1.05
-        ]
-      },
-      "usage": "HMCumshot の V0.5（ファイル名はV2だがハッシュはV0.5=3238531）。V0.5の trainedWords は cumshot。hmcumshot3 はモデルページ共通の例文（現行V1.0時点）で、V0.5の説明には無い。V0.5ギャラリーでは hmcumshot3 先頭の例文流用も多い。V0.5説明: データセット拡大・角度増、精液の質感は主にプロンプト次第。推奨強度はV0.5に記載なし（サンプルメタデータ0.4–1.05）。",
-      "prompt_examples": [
-        "integrated_multimodal_description: [Shot 1] Live-action, grainy cellphone video with slight motion blur and warm shower light reflecting off wet tiles. A Chinese woman with long dark wet hair stands in the shower, water streaming down her naked body. She leans against the tiled wall, holding her penis in one hand and stroking it up and down rapidly in a rhythmic motion. The camera shakes slightly with small amplitude as water spray hits the lens; thick droplets cling to the shower glass, distorting parts of the frame, while steam fogs the edges. She lets out a quiet, muffled moan, head tilted back against the wall, eyes half-closed, her breasts glistening under the warm water with hard nipples pointing forward. At 00:03.000, her body tenses as her penis pulses and thick white cum shoots out in separate spurts: the first spurt is a heavy glossy rope that holds its shape mid-air with a wet sheen; the second and third are thinner but stringy, with long elastic strands webbing from the slit; the fourth and fifth are more clotted and starchy, creamy curds that bead and cling as they land on the glass close to the viewer.\n\noverall_soundscape: Her soft moans mix with the constant loud spray of the showerhead and water hitting the shower floor, with a slight echo from the tiled walls.\n\nnon_diegetic_music: N/A",
-        "From the first frame her right fist is already sliding, a continuous full-fist handjob, pumping the thick shaft from the base all the way up over the swollen glans and back down again, long visible strokes, wrist twisting at the top, her knuckles traveling the full length of his cock without pausing. Her head bobs slightly in time with each stroke, a small up-and-down nod, chin lifting and dropping a little as she works his cock.\n\nFrom 0.00 to 3.00 seconds the handjob never stops: one long stroke after another, two to three pumps per second, her thick thighs shifting on the studio floor, belly rolling, tits jiggling, her head bobbing slightly, his hips pumping forward into her moving fist, cockhead close to her cheek and parted lips, her chin tilted up, teary blue eyes locked on his face. At 3.00 seconds exactly hmcumshot3 fires while her fist is still pumping: he shoots a huge excessive load of thick white cum from his cock in six heavy spurts. The texture is dense, pearlescent, ropey and viscous, glossy ropes that hold shape mid-air with a wet sheen, then stringy elastic strands webbing from the slit, then clotted creamy curds that bead and cling. First rope slaps across her forehead and into her black hair, second coats her right cheek and closed eyelid, third hits the bridge of her nose and upper lip, fourth dumps onto the tops of her huge tits and the sheer leotard cleavage, fifth and sixth splash her chin, throat and more hair in thick dripping globs. She flinches hard at impact and recoils, head jerking back, shoulders pulling away, putting a slight visible distance between his cockhead and her face so a small gap of air opens between the penis and her head. One eye squeezed shut, the other squinting, nose scrunched, a wet gasp leaving her open mouth, tits jiggling from the recoil, and her fist keeps stroking through every spurt, milking the shaft up and down as the cum lands across the new gap. From 3.00 to 10.00 seconds she holds that slight distance, head staying a little farther from his cock, still bobbing slightly as she pumps, extra ropes squeezing out onto her glazed face, tits and hair, cum dripping off her chin onto her breasts, his hips still pumping into her moving fist, one eye still shut, looking up at him. overall_soundscape: Close studio audio. Continuous wet skin-on-skin slick friction of her fist stroking his thick cock the whole clip, his heavy breathing and low grunts as his hips pump, her breathy moan then a sharp wet gasp and flinch when the first rope hits her face at three seconds, the tacky splat of thick cum landing on skin, hair and tits, more wet milking strokes through the load, studio room tone. non_diegetic_music: N/A"
-      ],
-      "trigger_required": false,
-      "fire_hint": "cumshot（trainedWord）を含め、射精の瞬間・精液の質感・着地点を平易な直接表現で詳しく書く",
-      "example_sources": [
-        "https://civitai.com/images/140178656 (by lizhai, sample metadata, modelVersionId=3238531)",
-        "https://civitai.com/images/143866978 (by arniciv269, sample metadata, modelVersionId=3238531)"
-      ],
-      "civitai_url": "https://civitai.com/models/2857340?modelVersionId=3238531",
       "source_verified": true
     },
     {

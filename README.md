@@ -12,13 +12,12 @@ H3 Mobile用LoRAの非公開保管場所です。
 |---|---|---|---|---|---|
 | `BJ_v3.safetensors` | `bl0w_j0b` | Yes | 1.0 / — | プロンプトに bl0w_j0b を入れ、フェラの動作を記述 | [MM-H3 - Blowjob v3](https://civarchive.com/models/2845331?modelVersionId=3285598) |
 | `breastplayjiggle_h3_v2.safetensors` | — | No | — / — | 胸を掴む/揉む/持ち上げる/乳首を吸う等の動作を自然文で具体的に書く（トリガー語なし） | [Breast Play & Jiggle for MiniMax H3 v2.0](https://civarchive.com/models/2856004?modelVersionId=3278283) |
-| `Cumshot_HM_v1.safetensors` | — | No | 0.7 / 0.7–0.9 | 射精の瞬間・精液の質感・着地点（顔/胸等）を平易な直接表現で詳しく書く | [HMCumshot v1.0](https://civarchive.com/models/2857340?modelVersionId=3329529) |
+| `HMCumshot_V2.safetensors` | `cumshot` | No | — / — | 射精の瞬間・精液の量/質感・着地点・体位を平易な直接表現で詳しく書く（cumshot は任意。Female POVは避ける） | [HMCumshot V2](https://civarchive.com/models/2857340?modelVersionId=3441237) |
 | `Deepthroat_Ultimate_v1.safetensors` | — | No | — / — | deepthroat / 喉奥まで咥える動作・喉の動きを時刻付きで具体的に記述 | [Ultimate DeepThroat + Frenulum Vers - MiniMax H3 - K3NK](https://civarchive.com/models/2904180?modelVersionId=3284171) |
 | `deepthroat_v02.safetensors` | — | No | — / — | ディープスロート/フェラの動作を記述。'maintain eye contact' で目線固定 | [Daring's Deepthroat H3/LTX2.3 (MiniMax H3 FL2VA v0.2)](https://civarchive.com/models/2476698?modelVersionId=3226989) |
 | `Finger_BEAN_v1.safetensors` | `BEANFLK` | Yes | 0.4 / — | プロンプト先頭に BEANFLK（大文字）→場面→SHOTごとに指の挿入動作 | [BEANFLK — Masturbation & Finger Insertion + Audio (H3)](https://civarchive.com/models/2829335?modelVersionId=3267091) |
 | `Finger_Insert_3323149.safetensors` | `sensual_fingering` | Yes | — / — | sensual_fingering, fingering her vagina with her two middle fingers, ... を書く | [Minimax H3 - Perfect Fingering v1.0](https://civarchive.com/models/2935787?modelVersionId=3323149) |
 | `h3-nipplesuck-step00007000-k3nk.safetensors` | `n1ppl3suck1ng` | No | — / — | 胸を口元へ引き寄せ自分の乳首を吸う動作を時刻付きで記述（trainedWord: n1ppl3suck1ng） | [Self Nipple Roping and Sucking LoRA - MiniMax H3 - K3NK v0.1](https://civarchive.com/models/2984096?modelVersionId=3383093) |
-| `HMCumshot_V2.safetensors` | `cumshot` | No | — / — | cumshot（trainedWord）を含め、射精の瞬間・精液の質感・着地点を平易な直接表現で詳しく書く | [HMCumshot V0.5](https://civarchive.com/models/2857340?modelVersionId=3238531) |
 | `HMNSFW-AIO-V2.5.safetensors` | — | No | — / 0.5–0.9 | トリガー不要。性行為の内容・体位・カメラを詳細に書く（プロンプトの質が全て） | [HMNSFW - AIO Sex LoRA V2.5](https://civarchive.com/models/2834417?modelVersionId=3268303) |
 | `HMPussyV2.safetensors` | `Pussy`<br>`vagina`<br>`anus` | ? | — / — | vagina / pussy / anus を明示し、形状・陰毛・開き方・カメラ位置を描写 | [HMPussy - Pussy/Anus LoRA V2](https://civarchive.com/models/2846342?modelVersionId=3436891) |
 | `JerkOff_H3.safetensors` | `[He/She] is jerking off.` | Yes | — / — | He is jerking off. / She is jerking off. と書き、手で竿をしごく動作を記述 | [Jerking Off (Minimax H3)](https://civarchive.com/models/2933701?modelVersionId=3320556) |
@@ -42,13 +41,12 @@ H3 Mobile用LoRAの非公開保管場所です。
 
 - **BJ_v3.safetensors** — フェラ(口淫)動作LoRA。トリガー bl0w_j0b 必須（元ページ記載）。強度1.0。サンプルはT2Vだが Ref2Vでも動作報告あり。元作者 kermitfrog1202 はBAN済、CivArchive経由で確認。
 - **breastplayjiggle_h3_v2.safetensors** — v2.0（v1から新規学習）。v2.0は揺れ/バウンドより胸を揉む・吸う等の「ブレストプレイ」重視、吸う動作は良好・舐めは不安定（モデル説明のV2.0節）。トリガー語なし。FL2V向け学習、Ref利用時は強度を下げる。v2.0の推奨強度は配布元に記載なし（サンプルメタデータでは0.75–0.85）。
-- **Cumshot_HM_v1.safetensors** — 射精シーン用アクションLoRA（v1.0）。このバージョンに trainedWords なし→射精の自然文記述で発火。推奨0.7（T2V/I2V、Turbo 8step 0.85併用）、R2Vは0.9。精液の質感描写が効く。音が大きすぎる場合は音の記述を明示。HMPenis/HMPussy と併用前提。
+- **HMCumshot_V2.safetensors** — 射精シーン用アクションLoRA（V2）。データセット拡大で対応ポジションが増えた。トレーニング方針はv1と同じ。Female POV（女性視点）は弱い（ときどき効く）。trainedWords は cumshot だが作者V2サンプルには含まれず、射精の自然文記述で発火。推奨強度は配布元に記載なし（サンプルにも強度メタデータなし）。
 - **Deepthroat_Ultimate_v1.safetensors** — ディープスロート+裏筋。トリガー語なし（配布元に記載なし）、動作記述で発火。推奨強度は配布元に記載なし。作者サンプルは integrated_multimodal_description 形式＋時刻指定の詳細プロンプト。ワークフローは作者動画に埋め込み。
 - **deepthroat_v02.safetensors** — 映像+音声同時生成のディープスロートLoRA（FL2VA v0.2）。トリガー語なし（配布元に記載なし）。'maintain eye contact' が有効フレーズ。15秒まで動作維持。MMF/FFM対応。音量は小さめ（後で正規化）。シード差が大きいので書き直す前にリロール推奨。推奨強度は配布元に記載なし。
 - **Finger_BEAN_v1.safetensors** — 指挿入オナニー（音声付き）。トリガー BEANFLK を全大文字で先頭に置く（必須）。H3では0.40で挿入が発火（サンプルメタデータでは0.7使用例も）。手が触れていない初期フレームからでも動作開始可。（サンプル実使用強度: [0.4, 0.7]）
 - **Finger_Insert_3323149.safetensors** — 指挿入（Perfect Fingering）。作者記載のプロンプト先頭 sensual_fingering を使用。任意で潮吹き描写追加可。推奨強度は配布元に記載なし。
 - **h3-nipplesuck-step00007000-k3nk.safetensors** — 自分の乳首を吸うLoRA（v0.1）。trainedWords は n1ppl3suck1ng だが作者サンプルプロンプトには含まれず、自然文の動作記述（固定カメラ・時刻指定）で発火している→トリガーは任意（作者サンプル13件すべて未使用）。推奨強度は配布元に記載なし。
-- **HMCumshot_V2.safetensors** — HMCumshot の V0.5（ファイル名はV2だがハッシュはV0.5=3238531）。V0.5の trainedWords は cumshot。hmcumshot3 はモデルページ共通の例文（現行V1.0時点）で、V0.5の説明には無い。V0.5ギャラリーでは hmcumshot3 先頭の例文流用も多い。V0.5説明: データセット拡大・角度増、精液の質感は主にプロンプト次第。推奨強度はV0.5に記載なし（サンプルメタデータ0.4–1.05）。
 - **HMNSFW-AIO-V2.5.safetensors** — 汎用NSFW（AIO）V2.5。トリガー語なし。強度0.5–0.9（バージョン説明）。設定: Euler/simple, 12 steps, shift 6, Turbo LoRA 0.5。I2Vが特に良好。プロンプトの質が結果を左右、埋め込みワークフローの例を参考に。（サンプル実使用強度: [0.5]）
 - **HMPussyV2.safetensors** — 女性器/肛門の解剖学補正（V2, pruned基準で再学習）。trainedWords: Pussy, vagina, anus。指・広げる・見せる動作で学習。V2の推奨強度は配布元に記載なし（旧版説明: 静止画版1.0、動画版0.35）。
 - **JerkOff_H3.safetensors** — 手コキ/オナニー（男性器）。トリガー文 '[He/She] is jerking off.'。ペニスLoRA併用推奨（作者）。推奨強度は配布元に記載なし（サンプルメタデータでは1.0/0.35）。（サンプル実使用強度: [0.35, 1]）
