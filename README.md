@@ -36,6 +36,7 @@ H3 Mobile用LoRAの非公開保管場所です。
 | `Pussy_HM_v1.safetensors` | `pussy` | ? | 1.0 / — | pussy を含め、女性器の形状・陰毛・角度を具体的に描写 | [HMPussy V1 - Stills only](https://civarchive.com/models/2846342?modelVersionId=3252213) |
 | `Rough.Sex.safetensors` | `This is a cgi video depicting a rough, intense, penetrative sex with male character performing, intense, fast thrusting motion penetrating female character with his erect penis` | Yes | — / — | 先頭にトリガー文（CGI video depicting a rough, intense, penetrative sex ...）を入れ、体位を記述 | [Rough Sex/Fucked Silly (H3-3D-V1)](https://civarchive.com/models/1332917?modelVersionId=3402996) |
 | `Squirt_HM_v2.safetensors.safetensors` | — | No | — / — | 指挿入オナニー→潮吹きを具体的に描写。HMPussy併用 | [HMMasturbation - Squirting and Female Masturbation v2.0](https://civarchive.com/models/2893742?modelVersionId=3310312) |
+| `H3_speed_slider_1.1.safetensors` | `slow`<br>`fast` | No | — / -8–8 | トリガー不要。強度の符号で速度を指定（−で遅く、＋で速く）。動作は普通に記述 | [✦ Motion speed slider for H3 MiniMax - by FoS v1.0](https://civarchive.com/models/2951265?modelVersionId=3342524) |
 
 ## 使い方メモ
 
@@ -65,4 +66,5 @@ H3 Mobile用LoRAの非公開保管場所です。
 - **Pussy_HM_v1.safetensors** — 女性器補正 V1（静止画学習）。trainedWords: pussy。静止画版は1.0（動作の保持には動画版 0.35 を併用、と作者）。シェーブ/有毛・肛門にも対応。
 - **Rough.Sex.safetensors** — 3D/CGI風の激しいセックス。trainedWordsの長文をプロンプト先頭に。推奨強度は配布元に記載なし（サンプルメタデータで0.3–1.0、0.8が多い）。（サンプル実使用強度: [0.3, 0.6, 0.8, 1]）
 - **Squirt_HM_v2.safetensors.safetensors** — オナニー＋潮吹き（v2.0、実験的）。トリガー語なし。本体の推奨強度は配布元に記載なし。Turbo LoRA 0.5、HMPussy 0.4–0.8 を併用（必須級）。
+- **H3_speed_slider_1.1.safetensors** — 動きの速さスライダー（作者 FrogOnStilts）。トリガー語不要（slow / fast は任意）。マイナスで遅く（作者例: 'a woman runs quickly along a sunny park path' を -16 で歩きに）、プラスで速く（プラス側の具体例は配布元に記載なし）。最適範囲 -8〜+8、±10付近からプロンプト追従が低下。他LoRA併用で効果が弱まることあり。サンプルに強度メタデータなし。
 

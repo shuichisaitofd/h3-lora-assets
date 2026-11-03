@@ -1,6 +1,6 @@
 {
   "release": "h3-loras-v1",
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "loras": [
     {
       "filename": "BJ_v3.safetensors",
@@ -902,6 +902,40 @@
         "https://civitai.com/images/142272829 (by HearmemanAI, sample metadata, modelVersionId=3310312)"
       ],
       "civitai_url": "https://civitai.com/models/2893742?modelVersionId=3310312",
+      "source_verified": true
+    },
+    {
+      "filename": "H3_speed_slider_1.1.safetensors",
+      "sha256": "593b074e8eb17bf9f858c3586fc12f53038dbfdd9634e146fe34a17e2661ca40",
+      "size": 10093356,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/H3_speed_slider_1.1.safetensors",
+      "name": "✦ Motion speed slider for H3 MiniMax - by FoS v1.0",
+      "author": "FrogOnStilts",
+      "source_url": "https://civarchive.com/models/2951265?modelVersionId=3342524",
+      "base_model": "MiniMax H3",
+      "triggers": [
+        "slow",
+        "fast"
+      ],
+      "strength": {
+        "recommended": null,
+        "range": [
+          -8,
+          8
+        ],
+        "source": "model page（Optimal range +8/-8、±10付近からプロンプト追従が低下。推奨の単一値は配布元に記載なし）",
+        "sample_metadata_weights": null
+      },
+      "usage": "動きの速さを調整するスライダーLoRA（v1.0内の H3_speed_slider_1.1 ファイル）。トリガー語不要（trainedWords: slow / fast は任意で追加可）。マイナスで動きが遅くなる：作者コメントでは \"a woman runs quickly along a sunny park path\" を -16 にすると走りが歩きになる。プラスは速くする方向（スライダー名・trainedWords fast より。プラス側の具体例は配布元に記載なし）。最適範囲 -8〜+8、±10付近からプロンプト追従が落ちる。他のLoRAと併用するとスライダー効果が弱まる/打ち消されることがある（作者注意）。サンプルに強度メタデータなし。",
+      "prompt_examples": [
+        "a woman runs quickly along a sunny park path"
+      ],
+      "trigger_required": false,
+      "fire_hint": "トリガー不要。強度の符号で速度を指定（−で遅く、＋で速く）。動作は普通に記述し、必要なら slow / fast を添える",
+      "example_sources": [
+        "https://civitai.com/images/143304711 (by FrogOnStilts, 作者コメント記載のプロンプト、強度 -16、modelVersionId=3342524。サンプル動画にメタデータなし)"
+      ],
+      "civitai_url": "https://civitai.com/models/2951265?modelVersionId=3342524",
       "source_verified": true
     }
   ]
