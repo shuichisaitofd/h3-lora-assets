@@ -18,7 +18,6 @@ H3 Mobile用LoRAの非公開保管場所です。
 | `Finger_BEAN_v1.safetensors` | `BEANFLK` | Yes | 0.4 / — | プロンプト先頭に BEANFLK（大文字）→場面→SHOTごとに指の挿入動作 | [BEANFLK — Masturbation & Finger Insertion + Audio (H3)](https://civarchive.com/models/2829335?modelVersionId=3267091) |
 | `Finger_Insert_3323149.safetensors` | `sensual_fingering` | Yes | — / — | sensual_fingering, fingering her vagina with her two middle fingers, ... を書く | [Minimax H3 - Perfect Fingering v1.0](https://civarchive.com/models/2935787?modelVersionId=3323149) |
 | `h3-nipplesuck-step00007000-k3nk.safetensors` | `n1ppl3suck1ng` | No | — / — | 胸を口元へ引き寄せ自分の乳首を吸う動作を時刻付きで記述（trainedWord: n1ppl3suck1ng） | [Self Nipple Roping and Sucking LoRA - MiniMax H3 - K3NK v0.1](https://civarchive.com/models/2984096?modelVersionId=3383093) |
-| `HMNSFW-AIO-V2.5.safetensors` | — | No | — / 0.5–0.9 | トリガー不要。性行為の内容・体位・カメラを詳細に書く（プロンプトの質が全て） | [HMNSFW - AIO Sex LoRA V2.5](https://civarchive.com/models/2834417?modelVersionId=3268303) |
 | `HMPussyV2.safetensors` | `Pussy`<br>`vagina`<br>`anus` | ? | — / — | vagina / pussy / anus を明示し、形状・陰毛・開き方・カメラ位置を描写 | [HMPussy - Pussy/Anus LoRA V2](https://civarchive.com/models/2846342?modelVersionId=3436891) |
 | `JerkOff_H3.safetensors` | `[He/She] is jerking off.` | Yes | — / — | He is jerking off. / She is jerking off. と書き、手で竿をしごく動作を記述 | [Jerking Off (Minimax H3)](https://civarchive.com/models/2933701?modelVersionId=3320556) |
 | `M3_Unlocked_v2.safetensors` | `nude`<br>`topless`<br>`bare breasts`<br>`naked`<br>`completely unclothed` | No | 0.5 / 0.3–1.0 | nude / topless / bare breasts 等を被写体記述に入れる | [MiniMax H3 NSFW Unlocked (M3_V1)](https://civarchive.com/models/2925727?modelVersionId=3310653) |
@@ -37,6 +36,8 @@ H3 Mobile用LoRAの非公開保管場所です。
 | `Rough.Sex.safetensors` | `This is a cgi video depicting a rough, intense, penetrative sex with male character performing, intense, fast thrusting motion penetrating female character with his erect penis` | Yes | — / — | 先頭にトリガー文（CGI video depicting a rough, intense, penetrative sex ...）を入れ、体位を記述 | [Rough Sex/Fucked Silly (H3-3D-V1)](https://civarchive.com/models/1332917?modelVersionId=3402996) |
 | `Squirt_HM_v2.safetensors.safetensors` | — | No | — / — | 指挿入オナニー→潮吹きを具体的に描写。HMPussy併用 | [HMMasturbation - Squirting and Female Masturbation v2.0](https://civarchive.com/models/2893742?modelVersionId=3310312) |
 | `H3_speed_slider_1.1.safetensors` | `slow`<br>`fast` | No | — / -8–8 | トリガー不要。強度の符号で速度を指定（−で遅く、＋で速く）。動作は普通に記述 | [✦ Motion speed slider for H3 MiniMax - by FoS v1.0](https://civarchive.com/models/2951265?modelVersionId=3342524) |
+| `h3-cunnilingus-step16000-k3nk-r16-k3nk.safetensors` | `cunn1l1ngu5` | No | — / — | cunn1l1ngu5 を先頭に付けると確実（任意）。脚を開いた相手の間で舌で陰核・陰唇を舐め吸う動作を時刻付きで記述、音は overall_soundscape で指定 | [Cunnilingus - MiniMax H3 LoRa - K3NK MiniMax H3 - v1.0](https://civarchive.com/models/3013815?modelVersionId=3420786) |
+| `HMNSFW-Extreme-Realism.safetensors` | — | No | — / 0.6–1.0 | トリガー不要。撮影スタイル（スマホ手持ち等）・場所・照明・人物・行為を散文で具体的に書く | [HMNSFW - AIO Sex LoRA V3 - Extreme Realism](https://civarchive.com/models/2834417?modelVersionId=3446189) |
 
 ## 使い方メモ
 
@@ -48,7 +49,6 @@ H3 Mobile用LoRAの非公開保管場所です。
 - **Finger_BEAN_v1.safetensors** — 指挿入オナニー（音声付き）。トリガー BEANFLK を全大文字で先頭に置く（必須）。H3では0.40で挿入が発火（サンプルメタデータでは0.7使用例も）。手が触れていない初期フレームからでも動作開始可。（サンプル実使用強度: [0.4, 0.7]）
 - **Finger_Insert_3323149.safetensors** — 指挿入（Perfect Fingering）。作者記載のプロンプト先頭 sensual_fingering を使用。任意で潮吹き描写追加可。推奨強度は配布元に記載なし。
 - **h3-nipplesuck-step00007000-k3nk.safetensors** — 自分の乳首を吸うLoRA（v0.1）。trainedWords は n1ppl3suck1ng だが作者サンプルプロンプトには含まれず、自然文の動作記述（固定カメラ・時刻指定）で発火している→トリガーは任意（作者サンプル13件すべて未使用）。推奨強度は配布元に記載なし。
-- **HMNSFW-AIO-V2.5.safetensors** — 汎用NSFW（AIO）V2.5。トリガー語なし。強度0.5–0.9（バージョン説明）。設定: Euler/simple, 12 steps, shift 6, Turbo LoRA 0.5。I2Vが特に良好。プロンプトの質が結果を左右、埋め込みワークフローの例を参考に。（サンプル実使用強度: [0.5]）
 - **HMPussyV2.safetensors** — 女性器/肛門の解剖学補正（V2, pruned基準で再学習）。trainedWords: Pussy, vagina, anus。指・広げる・見せる動作で学習。V2の推奨強度は配布元に記載なし（旧版説明: 静止画版1.0、動画版0.35）。
 - **JerkOff_H3.safetensors** — 手コキ/オナニー（男性器）。トリガー文 '[He/She] is jerking off.'。ペニスLoRA併用推奨（作者）。推奨強度は配布元に記載なし（サンプルメタデータでは1.0/0.35）。（サンプル実使用強度: [0.35, 1]）
 - **M3_Unlocked_v2.safetensors** — 汎用NSFWアンロック。コアトリガー: nude, topless, bare breasts, naked, completely unclothed（被写体・動作記述に混ぜる）。強度0.3–1（開始0.5）。Euler_ancestral + 4–8 turbo steps。
@@ -67,4 +67,6 @@ H3 Mobile用LoRAの非公開保管場所です。
 - **Rough.Sex.safetensors** — 3D/CGI風の激しいセックス。trainedWordsの長文をプロンプト先頭に。推奨強度は配布元に記載なし（サンプルメタデータで0.3–1.0、0.8が多い）。（サンプル実使用強度: [0.3, 0.6, 0.8, 1]）
 - **Squirt_HM_v2.safetensors.safetensors** — オナニー＋潮吹き（v2.0、実験的）。トリガー語なし。本体の推奨強度は配布元に記載なし。Turbo LoRA 0.5、HMPussy 0.4–0.8 を併用（必須級）。
 - **H3_speed_slider_1.1.safetensors** — 動きの速さスライダー（作者 FrogOnStilts）。トリガー語不要（slow / fast は任意）。マイナスで遅く（作者例: 'a woman runs quickly along a sunny park path' を -16 で歩きに）、プラスで速く（プラス側の具体例は配布元に記載なし）。最適範囲 -8〜+8、±10付近からプロンプト追従が低下。他LoRA併用で効果が弱まることあり。サンプルに強度メタデータなし。
+- **h3-cunnilingus-step16000-k3nk-r16-k3nk.safetensors** — クンニリングスLoRA（v1.0、作者 K3NK、映像+音声学習）。trainedWords は cunn1l1ngu5。作者サンプル12件中6件は先頭に付与、残り6件（I2V/REF2VA含む）は未使用で自然文の動作記述で発火→トリガーは任意。モデル説明に T2V / I2V / REF2VA のプロンプト例あり（I2Vは <Picture 1> の背景・構図固定＋時刻指定、音は overall_soundscape）。推奨強度は配布元に記載なし（サンプルにも本LoRAの強度メタデータなし）。ワークフローは作者動画に埋め込み。
+- **HMNSFW-Extreme-Realism.safetensors** — HMNSFW AIO Sex LoRA の V3（Extreme Realism、V2.5の後継）。散文プロンプトから音声・動き付きのリアルなセックスシーン。トリガー語なし。強度0.6–1.0（バージョン説明）。作者設定: fl2va int8 convrot、Euler/Beta、18 steps、Turbo LoRAなし（併用も可）。肛門を外す・高強度でカクつく・粒子が粗くなることがある→シード変更で再試行。サンプルに強度メタデータなし。
 

@@ -1,6 +1,6 @@
 {
   "release": "h3-loras-v1",
-  "updated": "2026-11-03",
+  "updated": "2026-11-09",
   "loras": [
     {
       "filename": "BJ_v3.safetensors",
@@ -268,41 +268,6 @@
         "https://civitai.com/images/144655430 (by K3NK, sample metadata, modelVersionId=3383093)"
       ],
       "civitai_url": "https://civitai.com/models/2984096?modelVersionId=3383093",
-      "source_verified": true
-    },
-    {
-      "filename": "HMNSFW-AIO-V2.5.safetensors",
-      "sha256": "a07732a84fd733085eb5d910f602f918fa7a3658117116927e4329f5951a9d2d",
-      "size": 86040232,
-      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/HMNSFW-AIO-V2.5.safetensors",
-      "name": "HMNSFW - AIO Sex LoRA V2.5",
-      "author": "HearmemanAI",
-      "source_url": "https://civarchive.com/models/2834417?modelVersionId=3268303",
-      "base_model": "MiniMax H3",
-      "triggers": [],
-      "strength": {
-        "recommended": null,
-        "range": [
-          0.5,
-          0.9
-        ],
-        "source": "version page",
-        "sample_metadata_weights": [
-          0.5,
-          0.7,
-          0.8
-        ]
-      },
-      "usage": "汎用NSFW（AIO）V2.5。トリガー語なし。強度0.5–0.9（バージョン説明）。設定: Euler/simple, 12 steps, shift 6, Turbo LoRA 0.5。I2Vが特に良好。プロンプトの質が結果を左右、埋め込みワークフローの例を参考に。",
-      "prompt_examples": [
-        "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. <Picture 1> aligns with 0.00-second mark. <Picture 2> aligns with 3.50-second mark.\n\nSmartphone homemade 1:1 vertical clip, 8 seconds, casual morning bedroom with bright natural window light flooding the room, no cinematic blur, no filters, raw phone-camera texture with slight digital noise and occasional micro-shake. At 0.00s the mobile camera is already in a tight side-profile close-up on the face of the 18-year-old police officer from <Picture 1>, her dark brown hair messy against the pillow, thick glossy white cum covering her forehead, both eyelids, the bridge of her nose, both cheeks, her slightly open mouth with a string of cum connecting upper and lower lip, more cum dripping from her chin onto her neck and the open dark-blue police shirt; a metal handcuff still locked around her raised right wrist. Camera executes a slow shaky Tracking Shot Left + small amplitude + medium speed, sliding left along her body while staying in tight close-up, revealing more thick white cum smeared across her collarbones, both bare breasts, and the soft skin of her stomach, the cum looking wet, viscous and slightly stringy under the bright morning light. At approximately 3.50s the camera reaches her lower abdomen and pelvis; she is wearing an extremely thin black dental-floss micro-thong that barely covers anything, the fabric already soaked and translucent with cum. <Picture 2> i …(truncated; full prompt at source)"
-      ],
-      "trigger_required": false,
-      "fire_hint": "トリガー不要。性行為の内容・体位・カメラを詳細に書く（プロンプトの質が全て）",
-      "example_sources": [
-        "https://civitai.com/images/141054460 (by simonishere, sample metadata, modelVersionId=3268303)"
-      ],
-      "civitai_url": "https://civitai.com/models/2834417?modelVersionId=3268303",
       "source_verified": true
     },
     {
@@ -936,6 +901,73 @@
         "https://civitai.com/images/143304711 (by FrogOnStilts, 作者コメント記載のプロンプト、強度 -16、modelVersionId=3342524。サンプル動画にメタデータなし)"
       ],
       "civitai_url": "https://civitai.com/models/2951265?modelVersionId=3342524",
+      "source_verified": true
+    },
+    {
+      "filename": "h3-cunnilingus-step16000-k3nk-r16-k3nk.safetensors",
+      "sha256": "e9882c54a15fdc62ffe72af763527aee457758894c88cac6ed3ffd700402ffe7",
+      "size": 298274848,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/h3-cunnilingus-step16000-k3nk-r16-k3nk.safetensors",
+      "name": "Cunnilingus - MiniMax H3 LoRa - K3NK MiniMax H3 - v1.0",
+      "author": "K3NK",
+      "source_url": "https://civarchive.com/models/3013815?modelVersionId=3420786",
+      "base_model": "MiniMax H3",
+      "triggers": [
+        "cunn1l1ngu5"
+      ],
+      "strength": {
+        "recommended": null,
+        "range": null,
+        "source": null,
+        "sample_metadata_weights": null
+      },
+      "usage": "クンニリングスLoRA（v1.0、作者 K3NK）。映像+音声で学習（121本、512x512、Rank 16）。trainedWords は cunn1l1ngu5。作者サンプル12件中6件（初期のT2V/スタイル例）は先頭に付与、残り6件（後から追加のT2V/I2V/REF2VA例）は未使用で自然文の動作記述で発火→トリガーは任意（付けると確実）。モデル説明に T2V / I2V / REF2VA のプロンプト例あり：I2Vは <Picture 1> の人物・背景・構図を固定し時刻指定で相手が入ってきて舐める流れ、音は overall_soundscape で指定。推奨強度は配布元に記載なし（サンプルメタデータにも本LoRAの強度なし。併用の Turbo/蒸留系LoRAは0.3–0.75）。ワークフローは作者動画に埋め込み。",
+      "prompt_examples": [
+        "cunn1l1ngu5, A woman is lying on her back with her legs spread apart, revealinging her vulva. The man is positioned between her legs, performing cunnilingus. He is using his tongue to lick and suck the clitoris and labia of the woman. His hands are placed on her hips, holding her steady while he performs the act. The woman's facial expressions suggest she is enjoying the experience, with her eyes closed and a relaxed posture. the camera then zoom in onto a closeup of the womna's vagina being licked by th eman. The lighting in bright, illuminatingating the scene, highlighting the details of their bodies and the action taking place.",
+        "A woman lies on her back with her legs spread apart, exposing her vulva. Another woman is positioned between her legs, performing cunnilingus. She uses her tongue to lick and suck the clitoris and labia in a rhythmic pattern. Her hands are placed on the other woman's hips, holding her steady while she performs the act. The woman receiving the cunnilingus has her eyes closed and a relaxed posture, enjoying the experience. Visible muscle tension and slight movements of the hips show her pleasure. The woman performing cunnilingus has her mouth open, actively engaged in the act throughout the 14-second video. Bright lighting illuminates the scene, highlighting the details of their bodies and the action taking place.\n",
+        "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] The video opens exactly on <Picture 1>, preserving the woman's appearance, clothing, hair, camera framing, lighting, AND THE ENTIRE BACKGROUND AND ENVIRONMENT exactly as in the reference image throughout the entire 14-second video. The background never changes — it remains identical to <Picture 1> from start to finish. No furniture or objects are added or removed. At 00:00.000 she lies on her back with her legs spread apart, her vulva already exposed and visible. From 00:00.000 to 00:03.000 another woman enters the frame from the side and kneels in front of her. From 00:03.000 to 00:14.000 she begins licking and sucking on the exposed clitoris and labia, her tongue moving in slow deliberate circles. Her hands are placed on the other woman's hips, holding her steady while she performs the act. The woman receiving the cunnilingus has her eyes closed and a relaxed posture, enjoying the experience. Visible muscle tension and slight movements of the hips show her pleasure. The woman performing cunnilingus has her mouth open, actively engaged in the act throughout the remainder of the shot.\n\noverall_soundscape: Wet oral sucking sounds, tongue movements, both women's moans and sighs of pleasure, their breathing, skin contact sounds, continuous throughout the 14 seconds.\n\nnon_diegetic_music: None.\n"
+      ],
+      "trigger_required": false,
+      "fire_hint": "cunn1l1ngu5 を先頭に付けると確実（任意）。脚を開いた相手の間で舌で陰核・陰唇を舐め吸う動作を時刻付きで記述、音は overall_soundscape で指定",
+      "example_sources": [
+        "https://civitai.com/images/146387556 (by K3NK, sample metadata, modelVersionId=3420786)",
+        "https://civitai.com/images/147373523 (by K3NK, sample metadata, modelVersionId=3420786)",
+        "https://civitai.com/images/147373540 (by K3NK, sample metadata, modelVersionId=3420786)"
+      ],
+      "civitai_url": "https://civitai.com/models/3013815?modelVersionId=3420786",
+      "source_verified": true
+    },
+    {
+      "filename": "HMNSFW-Extreme-Realism.safetensors",
+      "sha256": "55aa39239ea4b408dee601cb0fa49157ec13fe2a54eccbb2fb725b124e43c1b5",
+      "size": 620977128,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/HMNSFW-Extreme-Realism.safetensors",
+      "name": "HMNSFW - AIO Sex LoRA V3 - Extreme Realism",
+      "author": "HearmemanAI",
+      "source_url": "https://civarchive.com/models/2834417?modelVersionId=3446189",
+      "base_model": "MiniMax H3",
+      "triggers": [],
+      "strength": {
+        "recommended": null,
+        "range": [
+          0.6,
+          1.0
+        ],
+        "source": "version page（Recommended strength: 0.6-1.0。単一の推奨値は記載なし）",
+        "sample_metadata_weights": null
+      },
+      "usage": "汎用NSFW（AIO）の V3 = Extreme Realism（V2.5の後継、同じCivitaiモデル）。シンプルな散文プロンプトから音声・動き付きのリアルなセックスシーンを生成。トリガー語なし。強度0.6–1.0（バージョン説明）。作者設定: fl2va int8 convrot モデル、Euler/Beta、18 steps、Turbo LoRAなし（Turbo併用でも良好と作者）。既知の制限: 肛門を外すことがある・高強度でカクつく・粗い粒子の映像になることがある→シードを変えて再試行。作者サンプルは「Grainy handheld phone footage in ...」のように撮影スタイル・場所・人物・行為を散文で書く形式。サンプルに強度メタデータなし。",
+      "prompt_examples": [
+        "Grainy cellphone footage showing an intense sexual penetration scene, A 22-year-old slim, toned woman with light tan skin, visible abs and medium perky breasts lies on her back, her honey-blonde hair in two loose braids with curly strands framing her face. She wears big round orange glasses, a thin gold chain and a white crop tank with a colorful print, pulled up above her bare breasts. Her legs are spread wide and bent up, one hand holding the back of her thigh, the other gripping the pillow. In the bottom of the frame, His cock penetrates her shavd pussy in slow deliberate strokes, the viewer pulls back his hips completely to reveal his full penis followed by an immediate deep insertion, her lips stretching around the shaft of this penis and closing slightly each time he pulls away.\n\nShe moans in a high pitched voice, almost crying out loud, \"Ahh fuck, I can't wait to fool all the gooners with this shit\"\n Each thrust makes her breasts bounce and her stomach tighten. She looks straight into the lens through her glasses, panting and moaning with every stroke.",
+        "Grainy handheld phone footage in a mid-range hotel room at night, lit by one harsh bedside lamp, shot from an overhead angle of A man that is towering over a woman and thrusts his penis into her by moving his hips back and forth.\na room-service tray and the city glowing through sheer curtains. the camera is looking down at a 22-year-old tiny, petite woman with fair skin, a messy dark ponytail and tiny, almost flat tits with small pink nipples lies on her back on the left side of the bed, the man is gripping her hips, He drives his pelvis straight forward into her and pulls them straight back, in a horizontal back-and-forth thrust at a fast, steady pace. His thick veiny cock slides fully in and out of On the top of the frame, sitting on the bed is her 24-year-old fat friend sits propped against the headboard in an oversized hotel robe, arms crossed over her soft belly, eating fries. She doesn't look at them, just stares at the TV and rolls her eyes at every moan. She sighs and says, \"Babe, you said this was a girls' trip,\" then turns the TV volume up. Fast skin slaps, wet squelching, the bed creaking, the TV murmuring and high moans."
+      ],
+      "trigger_required": false,
+      "fire_hint": "トリガー不要。撮影スタイル（スマホ手持ち等）・場所・照明・人物・行為を散文で具体的に書く",
+      "example_sources": [
+        "https://civitai.com/images/147684968 (by HearmemanAI, sample metadata, modelVersionId=3446189)",
+        "https://civitai.com/images/147697105 (by HearmemanAI, sample metadata, modelVersionId=3446189)"
+      ],
+      "civitai_url": "https://civitai.com/models/2834417?modelVersionId=3446189",
       "source_verified": true
     }
   ]
