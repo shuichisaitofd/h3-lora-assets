@@ -38,6 +38,10 @@ H3 Mobile用LoRAの非公開保管場所です。
 | `H3_speed_slider_1.1.safetensors` | `slow`<br>`fast` | No | — / -8–8 | トリガー不要。強度の符号で速度を指定（−で遅く、＋で速く）。動作は普通に記述 | [✦ Motion speed slider for H3 MiniMax - by FoS v1.0](https://civarchive.com/models/2951265?modelVersionId=3342524) |
 | `h3-cunnilingus-step16000-k3nk-r16-k3nk.safetensors` | `cunn1l1ngu5` | No | — / — | cunn1l1ngu5 を先頭に付けると確実（任意）。脚を開いた相手の間で舌で陰核・陰唇を舐め吸う動作を時刻付きで記述、音は overall_soundscape で指定 | [Cunnilingus - MiniMax H3 LoRa - K3NK MiniMax H3 - v1.0](https://civarchive.com/models/3013815?modelVersionId=3420786) |
 | `HMNSFW-Extreme-Realism.safetensors` | — | No | — / 0.6–1.0 | トリガー不要。撮影スタイル（スマホ手持ち等）・場所・照明・人物・行為を散文で具体的に書く | [HMNSFW - AIO Sex LoRA V3 - Extreme Realism](https://civarchive.com/models/2834417?modelVersionId=3446189) |
+| `analMinimax_v1.safetensors` | — | No | — / — | トリガー不要。アナルセックス（POV）を自然文で記述 | [Anal - MiniMax](https://civarchive.com/models/3031553?modelVersionId=3443995) |
+| `Cinema-MH3-V02_000010000.safetensors` | `ASTROCINEMAV01K2T` | Yes | — / — | integrated_multimodal_description の先頭付近に ASTROCINEMAV01K2T を置き、ショットサイズ・カメラ位置・レンズ・照明を具体的に書く | [Cinematic Style LoRA + Detail Enhancer for MiniMax H3](https://civarchive.com/models/2849726?modelVersionId=3278719) |
+| `cxy_kiss_v03_000002000.safetensors` | — | No | — / 0.5–1.0 | トリガー不要。二人のキス動作（口の接触・動きの連続）を自然文で具体的に書く | [H3 Cxy Kiss Lora v0.3](https://civarchive.com/models/2842199?modelVersionId=3424427) |
+| `H3_VBVR_Pro-V2.safetensors` | — | No | 1.0 / — | トリガー不要。起こる動作を順を追って具体的・字義どおりに書く（一般用途のプロンプト追従LoRA） | [H3 VBVR Pro V2](https://civarchive.com/models/2497207?modelVersionId=3449495) |
 
 ## 使い方メモ
 
@@ -69,4 +73,7 @@ H3 Mobile用LoRAの非公開保管場所です。
 - **H3_speed_slider_1.1.safetensors** — 動きの速さスライダー（作者 FrogOnStilts）。トリガー語不要（slow / fast は任意）。マイナスで遅く（作者例: 'a woman runs quickly along a sunny park path' を -16 で歩きに）、プラスで速く（プラス側の具体例は配布元に記載なし）。最適範囲 -8〜+8、±10付近からプロンプト追従が低下。他LoRA併用で効果が弱まることあり。サンプルに強度メタデータなし。
 - **h3-cunnilingus-step16000-k3nk-r16-k3nk.safetensors** — クンニリングスLoRA（v1.0、作者 K3NK、映像+音声学習）。trainedWords は cunn1l1ngu5。作者サンプル12件中6件は先頭に付与、残り6件（I2V/REF2VA含む）は未使用で自然文の動作記述で発火→トリガーは任意。モデル説明に T2V / I2V / REF2VA のプロンプト例あり（I2Vは <Picture 1> の背景・構図固定＋時刻指定、音は overall_soundscape）。推奨強度は配布元に記載なし（サンプルにも本LoRAの強度メタデータなし）。ワークフローは作者動画に埋め込み。
 - **HMNSFW-Extreme-Realism.safetensors** — HMNSFW AIO Sex LoRA の V3（Extreme Realism、V2.5の後継）。散文プロンプトから音声・動き付きのリアルなセックスシーン。トリガー語なし。強度0.6–1.0（バージョン説明）。作者設定: fl2va int8 convrot、Euler/Beta、18 steps、Turbo LoRAなし（併用も可）。肛門を外す・高強度でカクつく・粒子が粗くなることがある→シード変更で再試行。サンプルに強度メタデータなし。
-
+- **analMinimax_v1.safetensors** — アナルセックス（POV）用LoRA（v1、作者 promptedpixel）。トリガー語なし。推奨強度は配布元に記載なし。作者サンプルのプロンプトは 'Anal' のみで、強度メタデータなし。
+- **Cinema-MH3-V02_000010000.safetensors** — 映画的な画作りのスタイルLoRA（v2.0 + Detail Enhancer、作者 Astroburner）。一般用途のシネマトグラフィLoRA（キャラクター固定や特定作品ルックではない）。トリガー ASTROCINEMAV01K2T を integrated_multimodal_description の先頭付近に置く（K2Tは変更不可）。ショットサイズ・カメラ位置・レンズ・照明を具体的に書く。「cinematic」だけの指定は非推奨。推奨強度は配布元に記載なし（サンプルにも本LoRAの強度メタデータなし）。
+- **cxy_kiss_v03_000002000.safetensors** — キス動作LoRA（V0.3 Beta、2000ステップ、作者 CxyGodKiss）。トリガー語なし。強度 0.5–1.0（HF README）。Ref2VA推奨、Turbo LoRA v4 強度1.0。舌の動きが硬い・反復が出ることがある。Civitai掲載は削除済み。同一SHA256をCivArchiveと公式HFで確認。HFにはより新しいV0.4（別ハッシュ）あり。作者サンプルにプロンプト本文なし。
+- **H3_VBVR_Pro-V2.safetensors** — 一般用途のビデオ推論LoRA（H3 VBVR Pro V2、作者 MisticRain69）。プロンプト追従・時間的一貫性・意図的な動きを改善（スタイルは変えない。モーションLoRAと併用可）。NSFW/非NSFW両対応。開始強度1.0（stock MiniMax H3 / Eros max beta 6）。sexy / busty / curvy 等は強調されやすい。トリガー語なし。動作を順を追って具体的に書く。

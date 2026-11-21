@@ -1,6 +1,6 @@
 {
   "release": "h3-loras-v1",
-  "updated": "2026-11-09",
+  "updated": "2026-11-21",
   "loras": [
     {
       "filename": "BJ_v3.safetensors",
@@ -968,6 +968,121 @@
         "https://civitai.com/images/147697105 (by HearmemanAI, sample metadata, modelVersionId=3446189)"
       ],
       "civitai_url": "https://civitai.com/models/2834417?modelVersionId=3446189",
+      "source_verified": true
+    },
+    {
+      "filename": "analMinimax_v1.safetensors",
+      "sha256": "b644eac3bc5b1ae49214d0fb8b45a471af8d22f0a41adddc13cb4277aced40d0",
+      "size": 310170072,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/analMinimax_v1.safetensors",
+      "name": "Anal - MiniMax",
+      "author": "promptedpixel",
+      "source_url": "https://civarchive.com/models/3031553?modelVersionId=3443995",
+      "base_model": "MiniMax H3",
+      "triggers": [],
+      "strength": {
+        "recommended": null,
+        "range": null,
+        "source": null,
+        "sample_metadata_weights": null
+      },
+      "usage": "アナルセックス（POV）用LoRA（v1、作者 promptedpixel）。モデル説明は 'Anal pov lora for anal sex' のみ。トリガー語なし（trainedWords空）。推奨強度は配布元に記載なし（作者サンプルにも強度メタデータなし。プロンプトは 'Anal' のみ）。",
+      "prompt_examples": [
+        "Anal"
+      ],
+      "trigger_required": false,
+      "fire_hint": "トリガー不要。アナルセックス（POV）を自然文で記述",
+      "example_sources": [
+        "https://civitai.com/images/147582289 (by promptedpixel, sample metadata, modelVersionId=3443995)",
+        "https://civitai.com/images/147582758 (by promptedpixel, sample metadata, modelVersionId=3443995)"
+      ],
+      "civitai_url": "https://civitai.com/models/3031553?modelVersionId=3443995",
+      "source_verified": true
+    },
+    {
+      "filename": "Cinema-MH3-V02_000010000.safetensors",
+      "sha256": "cf7d8e1aeec12c757e0b557591fe493b2f50590a1e0e7b017e29e7268a39496b",
+      "size": 155110288,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Cinema-MH3-V02_000010000.safetensors",
+      "name": "Cinematic Style LoRA + Detail Enhancer for MiniMax H3",
+      "author": "Astroburner",
+      "source_url": "https://civarchive.com/models/2849726?modelVersionId=3278719",
+      "base_model": "MiniMax H3",
+      "triggers": [
+        "ASTROCINEMAV01K2T"
+      ],
+      "strength": {
+        "recommended": null,
+        "range": null,
+        "source": null,
+        "sample_metadata_weights": null
+      },
+      "usage": "映画的な画作りのスタイルLoRA（v2.0 + Detail Enhancer、作者 Astroburner）。キャラクターLoRAではなく、特定の作品ルックを固定するものでもない。画角・カメラ位置・レンズ・照明・フィルム質感を強める一般用途のシネマトグラフィLoRAで、ジャンルや人物・衣装・動作はプロンプト側で指定する。トリガー ASTROCINEMAV01K2T を integrated_multimodal_description の先頭付近に置く（K2Tの表記は学習どおり変更不可）。ショットサイズ・カメラの高さ/角度・レンズ・動き・光源を具体的に書く（「cinematic」だけは非推奨）。動き・演技・音声はH3本体の役割なので別途記述。推奨強度は配布元に記載なし（サンプルにも本LoRAの強度メタデータなし。作者サンプルは Euler、20 steps、cfg 1）。",
+      "prompt_examples": [
+        "integrated_multimodal_description: [Shot 1] ASTROCINEMAV01K2T depicts the atmospheric opening image of a live-action mystery film in a native 16:9 widescreen composition. No cuts; one continuous shot throughout. Before sunrise, an isolated one-story desert motel sits beside an empty two-lane highway, its turquoise doors and sun-faded peach walls barely visible beneath a vast indigo sky. A tall roadside sign reading \"VACANCY\" has only three working red neon letters, and a shallow swimming pool is empty except for windblown tumbleweed and a single white plastic chair lying on its side. A pale blue 1980s sedan enters from the extreme-left background with one headlight dimmer than the other, slows without signaling, and turns into the gravel lot. No driver is clearly visible through the windshield. The camera begins six inches above the cracked asphalt in a very low-angle extreme-wide frame on a 24 mm anamorphic lens, with blurred thorny weeds crossing the immediate foreground. It performs a slow, perfectly controlled dolly backward with medium amplitude as the car approaches, preserving the motel sign high in the left third and the empty pool on the right. When the sedan passes close to the lens, its headlight creates a restrained horizontal flare and briefly overexposes dust suspended in the air; exposure recovers naturally rather than snapping. The camera continues backward until the vehicle stops outside room \"07\", now framed as a balanced but uneasy wide shot. The engine remains running. One warm bathroom light switches on inside the room although nobody has left the car. A thin curtain moves behind the glass, then becomes still. Use tactile 35 mm film grain, slightly faded cyan and coral color separation, cool predawn ambient light, dirty red neon halation, gentle gate weave, controlled black levels, soft edge falloff, and subtle heat-haze distortion beginning near the horizon even at this early hour. There is no dialogue and no explanatory action. Hold on the running car, illuminated room, and empty exterior corridor long enough for the audience to understand that the motel was waiting before the traveler arrived.\noverall_soundscape: Dry desert wind moves through scrub, neon transformers buzz unevenly, the sedan's tired engine idles with a faint belt squeal, gravel settles beneath cooling tires, a distant freight train gives one low horn, and an unseen metal sign taps softly against its mounting. The bathroom switch produces one dry click from inside room 07, followed by the quiet flutter of a curtain.\nnon_diegetic_music: A single sustained bass-clarinet tone and a nearly inaudible bowed-vibraphone harmonic enter only after the room light activates. Both remain static and unresolved, fading beneath the idling engine rather than announcing danger.",
+        "integrated_multimodal_description: [Shot 1] ASTROCINEMAV01K2T depicts a slow-burn live-action psychological mystery in a native 16:9 widescreen composition, photographed on a 50 mm spherical lens with a desaturated green-and-tobacco palette, underexposed 35 mm grain, mild gate weave, creamy halation around practical fluorescents, and softly rolled highlights. An older South Asian man in his early sixties waits alone on an underground railway platform after midnight, placed far to the right of an asymmetrical extreme-wide frame. He wears a carefully buttoned camel overcoat over a burgundy waistcoat, white shirt, loosened tie, polished brown shoes, and carries an old black leather doctor's case. The camera remains static at a slightly high angle from across the tracks; empty tiled space dominates the left side, a broken analog clock reads \"12:17\", and pale fluorescent tubes flicker in sequence toward a tunnel. A newspaper page skitters along the platform although the air is still. [Shot 2] At 00:03.700, the camera pushes in with small amplitude at an almost imperceptible speed, tightening to a medium-long frame as a train wind begins without any visible train. The man (S1), with a dry baritone, slow deliberate diction, and educated Indian-English accent, looks toward the black tunnel and asks <d>[English] Did you follow me here?</d> No one answers. His grip tightens on the case, and every fluorescent light behind him switches off one by one, each pop advancing toward his position. [Shot 3] At 00:07.100, the camera cuts to an extreme close-up of the clock face at a steep Dutch angle; the second hand runs backward and stops. Focus racks to the convex reflection in the clock glass, where a small girl in a red wool coat stands directly behind the man, though the platform itself remains empty when the camera tilts down. The final fluorescent tube dies, leaving only a cold blue tunnel light and the glint of his frightened eye. A child's soft inhale is heard immediately beside the microphone.\noverall_soundscape: Distant ventilation hum, faint electrical buzz, the scratch of paper over tile, intermittent fluorescent pops, leather creaking under the man's hand, and a growing subterranean wind create a sparse three-dimensional station ambience. The impossible backward clock adds a dry mechanical ticking that ceases just before the final breath.\nnon_diegetic_music: A nearly subliminal cluster of bowed vibraphone, bass clarinet, and glass harmonics grows without a clear beat. One muted piano note sounds when the red-coated reflection appears, then its resonance is allowed to decay into darkness."
+      ],
+      "trigger_required": true,
+      "fire_hint": "integrated_multimodal_description の先頭付近に ASTROCINEMAV01K2T を置き、ショットサイズ・カメラ位置・レンズ・照明を具体的に書く",
+      "example_sources": [
+        "https://civitai.com/images/141232513 (by Astroburner, sample metadata, modelVersionId=3278719)",
+        "https://civitai.com/images/141232272 (by Astroburner, sample metadata, modelVersionId=3278719)"
+      ],
+      "civitai_url": "https://civitai.com/models/2849726?modelVersionId=3278719",
+      "source_verified": true
+    },
+    {
+      "filename": "cxy_kiss_v03_000002000.safetensors",
+      "sha256": "0cea499704d8532bceda8d80ff6afd99923beedad1ef648efcb09e37326ed868",
+      "size": 620285264,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/cxy_kiss_v03_000002000.safetensors",
+      "name": "H3 Cxy Kiss Lora v0.3",
+      "author": "CxyGodKiss",
+      "source_url": "https://civarchive.com/models/2842199?modelVersionId=3424427",
+      "base_model": "MiniMax H3",
+      "triggers": [],
+      "strength": {
+        "recommended": null,
+        "range": "0.5–1.0",
+        "source": "Hugging Face README (CxyGodKiss/cxy_kiss_h3)",
+        "sample_metadata_weights": null
+      },
+      "usage": "キス動作LoRA（V0.3 Beta、2000ステップ版、作者 CxyGodKiss）。約300本の動画で学習。トリガー語なし。キスの動き・口の接触・連続性を改善する目的。既知の限界として、舌の動きが硬い・口の相互作用が不自然・反復運動が出ることがある。推奨強度は 0.5–1.0（作者のHugging Face README。CivArchive/CivitaiのV0.3説明には強度記載なし）。推奨ベースは MiniMax H3 Hybrid FL2VA / Ref2VA、Turbo LoRA v4 強度1.0、Ref2VAワークフロー推奨。作者サンプルにプロンプト本文はなく、ワークフローメタ（hybrid fl2va、Turbo v4 強度1、res_multistep、8 steps）のみ。Civitaiの掲載は2026-10-26に削除済みで、同一SHA256をCivArchive（modelVersionId=3424427、ファイル名は cxy_kiss_v3_000002000.safetensors）と公式HF（https://huggingface.co/CxyGodKiss/cxy_kiss_h3）で確認。同モデルにv0.1/v0.2があり、HFにはより新しいV0.4（500ステップ、別ハッシュ）もあるが、本リリースのファイルはV0.3の2000ステップ。",
+      "prompt_examples": [],
+      "trigger_required": false,
+      "fire_hint": "トリガー不要。二人のキス動作（口の接触・動きの連続）を自然文で具体的に書く",
+      "example_sources": [],
+      "civitai_url": "https://civitai.com/models/2842199?modelVersionId=3424427",
+      "source_verified": true
+    },
+    {
+      "filename": "H3_VBVR_Pro-V2.safetensors",
+      "sha256": "cb3e9f2e395f63e0325213c0b802f26e6d4b6b1caf3f714a969b9aa56242bccb",
+      "size": 1240538680,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/H3_VBVR_Pro-V2.safetensors",
+      "name": "H3 VBVR Pro V2",
+      "author": "MisticRain69",
+      "source_url": "https://civarchive.com/models/2497207?modelVersionId=3449495",
+      "base_model": "MiniMax H3",
+      "triggers": [],
+      "strength": {
+        "recommended": 1.0,
+        "range": null,
+        "source": "version description (CivArchive)",
+        "sample_metadata_weights": null
+      },
+      "usage": "一般用途のビデオ推論（VBVR）LoRA（H3 VBVR Pro V2、作者 MisticRain69）。視覚スタイルは変えず、プロンプト追従・時間的一貫性・意図的な動きを改善する（モーションLoRAではなく、それらと併用可）。NSFW/非NSFWのどちらでも使えると作者が明記。V2は VBVR Pro SFTデータセットのサブセットを、より高解像度・Rank 128（V1は16）・改善したハイパーパラメータで学習し、V1より指示に忠実。stock MiniMax H3 と Eros max beta 6 での開始強度は 1.0（V1でEros時に0.5へ下げる案内はV2では不要。作例も1.0）。sexy / physics / busty / curvy などの語は強調されやすいので、中立的な体型にしたい場合は書かない。トリガー語なし。動作は順を追って具体的・字義どおりに書く。作者のV2サンプルはI2V形式（<Picture 1>参照）。T2Vの検証状況はV2説明に記載なし。",
+      "prompt_examples": [
+        "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] 2D-animated, the gray-and-white female wolf with red eyes from <Picture 1> moves both hands away from her breasts and his penis and places them up near her face. She bends both arms and presses the points of her elbows firmly into the outer sides of her breasts to squeeze them together around his penis. She tilts her head up and looks at him with her muzzle facing upward while she slides her breasts up and down along the shaft, keeping the elbows locked against her chest and the breasts pressed flat around it.\n\noverall_soundscape: The female wolf’s soft breathing over quiet room ambience.\n\nnon_diegetic_music: N/A",
+        "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. integrated_multimodal_description: [Shot 1] 2D-animated, cel-shaded with bold black outlines, a medium shot frames the white-furred wolf woman with black hair and red eyes from <Picture 1> gathers her breasts around the penis. She quickly slides her breasts up and down the mans penis with smooth continuous motion. She blinks a few times. overall_soundscape: Wet cupped claps and the wolf woman’s soft panting and moaning over quiet room ambience. non_diegetic_music: N/A"
+      ],
+      "trigger_required": false,
+      "fire_hint": "トリガー不要。起こる動作を順を追って具体的・字義どおりに書く（一般用途のプロンプト追従LoRA）",
+      "example_sources": [
+        "https://civitai.com/images/147868347 (by MisticRain69, sample metadata, modelVersionId=3449495)",
+        "https://civitai.com/images/147849631 (by MisticRain69, sample metadata, modelVersionId=3449495)"
+      ],
+      "civitai_url": "https://civitai.com/models/2497207?modelVersionId=3449495",
       "source_verified": true
     }
   ]
