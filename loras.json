@@ -1,6 +1,6 @@
 {
   "release": "h3-loras-v1",
-  "updated": "2026-11-21",
+  "updated": "2026-11-23",
   "loras": [
     {
       "filename": "BJ_v3.safetensors",
@@ -1083,6 +1083,218 @@
         "https://civitai.com/images/147849631 (by MisticRain69, sample metadata, modelVersionId=3449495)"
       ],
       "civitai_url": "https://civitai.com/models/2497207?modelVersionId=3449495",
+      "source_verified": true
+    },
+    {
+      "filename": "Eros_AnimeNSFW.safetensors",
+      "sha256": "6c350388b28792ad90b7c9467a073bd23485093ebe37591747c99e7ff3095b17",
+      "size": 34381144,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Eros_AnimeNSFW.safetensors",
+      "name": "Eros Anime NSFW (animeNSFW_e995_r8)",
+      "author": "TenStrip（元LoRA: 2D Anime Style NSFW LORA - H3 v0.5, tazmannner379）",
+      "source_url": "https://huggingface.co/TenStrip/MMH3_Sulphur3Eros_Loras-MLP-energy-patches/blob/main/animeNSFW_e995_r8.safetensors",
+      "base_model": "MiniMax H3（Eros / Sulphur3 マージ・調整モデル向けの MLP パッチ）",
+      "triggers": [],
+      "strength": {
+        "recommended": null,
+        "range": "0.7–1.0+",
+        "source": "Hugging Face README (TenStrip/MMH3_Sulphur3Eros_Loras-MLP-energy-patches)",
+        "sample_metadata_weights": null
+      },
+      "usage": "アニメ／エロアニメ調の絵柄・音・動きの補強（I2V向け。プロンプトと入力画像と併用）。元LoRAの説明では『2d anime style』を常に入れる指定（このパッチでの要否は配布元に記載なし）。強度は作者目安 0.7–1.0以上。TenStrip 公開の「energy downranked MLP-only extraction」版（元LoRAからMLP層だけを低ランクで抽出）。Eros / Sulphur3 のマージ・調整モデルに重ねて使う前提で、すでに解剖・ヌード・一般的な動きを持つモデルへの『補強・修正役』として働く（通常のフルLoRAを重ねると、ぼやけ・格子状・プロンプト無視が出やすいため）。 配布元の元ファイル名は animeNSFW_e995_r8.safetensors（HFのLFS sha256 とリリースのファイルが一致）。作例のプロンプトメタデータはCivitai側に無く、プロンプト例は配布元／元LoRA説明の文のみ。Civitaiに投稿する場合は元LoRAの作者をクレジット（作者の依頼）。",
+      "prompt_examples": [],
+      "trigger_required": false,
+      "fire_hint": "トリガー記載なし。アニメ調を自然文で書き、入力画像と併用（元LoRAは '2d anime style' を推奨）",
+      "example_sources": [
+        "https://huggingface.co/TenStrip/MMH3_Sulphur3Eros_Loras-MLP-energy-patches/blob/main/README.md (README, TenStrip)"
+      ],
+      "civitai_url": null,
+      "source_verified": true
+    },
+    {
+      "filename": "Eros_AssJiggle.safetensors",
+      "sha256": "6335eaba65449038c4cb68c1e4968f5386c94a1e316abe613bb9a073fe87c447",
+      "size": 54341072,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Eros_AssJiggle.safetensors",
+      "name": "Eros Ass Jiggle (ass_jiggle_e995_r13)",
+      "author": "TenStrip（元LoRA: H3 Ass jiggle (I2V) v1.0, blo01）",
+      "source_url": "https://huggingface.co/TenStrip/MMH3_Sulphur3Eros_Loras-MLP-energy-patches/blob/main/ass_jiggle_e995_r13.safetensors",
+      "base_model": "MiniMax H3（Eros / Sulphur3 マージ・調整モデル向けの MLP パッチ）",
+      "triggers": [],
+      "strength": {
+        "recommended": null,
+        "range": "0.4–1.0",
+        "source": "Hugging Face README (TenStrip/MMH3_Sulphur3Eros_Loras-MLP-energy-patches)",
+        "sample_metadata_weights": null
+      },
+      "usage": "後背位／後ろからの突き込みと、衝突に伴うお尻の揺れ・音。リアル寄りではなく3Dっぽい動きになりやすい（作者）。強度は作者目安 0.4–1.0。元LoRAの説明は I2V 用で強度 0.8–1.0、H3テンプレートで 'her ass jiggles from impact' などの語を使う。TenStrip 公開の「energy downranked MLP-only extraction」版（元LoRAからMLP層だけを低ランクで抽出）。Eros / Sulphur3 のマージ・調整モデルに重ねて使う前提で、すでに解剖・ヌード・一般的な動きを持つモデルへの『補強・修正役』として働く（通常のフルLoRAを重ねると、ぼやけ・格子状・プロンプト無視が出やすいため）。 配布元の元ファイル名は ass_jiggle_e995_r13.safetensors（HFのLFS sha256 とリリースのファイルが一致）。作例のプロンプトメタデータはCivitai側に無く、プロンプト例は配布元／元LoRA説明の文のみ。Civitaiに投稿する場合は元LoRAの作者をクレジット（作者の依頼）。",
+      "prompt_examples": [],
+      "trigger_required": false,
+      "fire_hint": "トリガー記載なし。後ろからの突きと『衝突でお尻が揺れる』を自然文で書く",
+      "example_sources": [
+        "https://huggingface.co/TenStrip/MMH3_Sulphur3Eros_Loras-MLP-energy-patches/blob/main/README.md (README, TenStrip)"
+      ],
+      "civitai_url": null,
+      "source_verified": true
+    },
+    {
+      "filename": "Eros_CumMerge.safetensors",
+      "sha256": "6ea6a4386581b0e162962f45e7484b2916ff65f749ca092bac4dc2e959551922",
+      "size": 44424080,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Eros_CumMerge.safetensors",
+      "name": "Eros Cum Merge (cum_merge_e995_r8)",
+      "author": "TenStrip（元LoRA: Furry Cumshot v1.5 [Opossum_] と HMCumshot v2 [HearmemanAI] の混合）",
+      "source_url": "https://huggingface.co/TenStrip/MMH3_Sulphur3Eros_Loras-MLP-energy-patches/blob/main/cum_merge_e995_r8.safetensors",
+      "base_model": "MiniMax H3（Eros / Sulphur3 マージ・調整モデル向けの MLP パッチ）",
+      "triggers": [],
+      "strength": {
+        "recommended": null,
+        "range": null,
+        "source": null,
+        "sample_metadata_weights": null
+      },
+      "usage": "射精の物理・見た目・結果（単独、ボディショット、顔射）の補強。作者は1.0強度で混ぜて目標の発火補強に仕上げたもの。強度の目安は配布元に記載なし。動きと行き先はプロンプトで具体的に書く必要がある（作者）。TenStrip 公開の「energy downranked MLP-only extraction」版（元LoRAからMLP層だけを低ランクで抽出）。Eros / Sulphur3 のマージ・調整モデルに重ねて使う前提で、すでに解剖・ヌード・一般的な動きを持つモデルへの『補強・修正役』として働く（通常のフルLoRAを重ねると、ぼやけ・格子状・プロンプト無視が出やすいため）。 配布元の元ファイル名は cum_merge_e995_r8.safetensors（HFのLFS sha256 とリリースのファイルが一致）。作例のプロンプトメタデータはCivitai側に無く、プロンプト例は配布元／元LoRA説明の文のみ。Civitaiに投稿する場合は元LoRAの作者をクレジット（作者の依頼）。",
+      "prompt_examples": [
+        "...the penis begins ejaculating a powerful long stringy rope of cum out of the very top of the penis that flies up into the air and then lands on...."
+      ],
+      "trigger_required": false,
+      "fire_hint": "トリガー記載なし。射精の動き（先端から長く糸を引いて飛ぶ等）と着地点を具体的に書く",
+      "example_sources": [
+        "https://huggingface.co/TenStrip/MMH3_Sulphur3Eros_Loras-MLP-energy-patches/blob/main/README.md (README, TenStrip)"
+      ],
+      "civitai_url": null,
+      "source_verified": true
+    },
+    {
+      "filename": "Eros_FinalCut.safetensors",
+      "sha256": "5b67f40589bae364373638130de0d91dd4659ec42e3db46126b0bab7cf98267e",
+      "size": 33581712,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Eros_FinalCut.safetensors",
+      "name": "Eros FinalCut (final_cut_e995_r6)",
+      "author": "TenStrip（元LoRA: FinalCut、元Civitai掲載は消失・作者不明）",
+      "source_url": "https://huggingface.co/TenStrip/MMH3_Sulphur3Eros_Loras-MLP-energy-patches/blob/main/final_cut_e995_r6.safetensors",
+      "base_model": "MiniMax H3（Eros / Sulphur3 マージ・調整モデル向けの MLP パッチ）",
+      "triggers": [],
+      "strength": {
+        "recommended": null,
+        "range": "0.2–1.0",
+        "source": "Hugging Face README (TenStrip/MMH3_Sulphur3Eros_Loras-MLP-energy-patches)",
+        "sample_metadata_weights": null
+      },
+      "usage": "アダルト全般の動き・性的な効果音・喘ぎ声を強める汎用ブースター（作者いわく『ポルノ全般で学習した、テーマ／動きブースター』）。強度は作者目安 0.2–1.0。元モデルは見つからず、出典の確認不可。TenStrip 公開の「energy downranked MLP-only extraction」版（元LoRAからMLP層だけを低ランクで抽出）。Eros / Sulphur3 のマージ・調整モデルに重ねて使う前提で、すでに解剖・ヌード・一般的な動きを持つモデルへの『補強・修正役』として働く（通常のフルLoRAを重ねると、ぼやけ・格子状・プロンプト無視が出やすいため）。 配布元の元ファイル名は final_cut_e995_r6.safetensors（HFのLFS sha256 とリリースのファイルが一致）。作例のプロンプトメタデータはCivitai側に無く、プロンプト例は配布元／元LoRA説明の文のみ。Civitaiに投稿する場合は元LoRAの作者をクレジット（作者の依頼）。",
+      "prompt_examples": [],
+      "trigger_required": false,
+      "fire_hint": "トリガー記載なし。性的な動き・音・喘ぎ声を自然文で記述",
+      "example_sources": [
+        "https://huggingface.co/TenStrip/MMH3_Sulphur3Eros_Loras-MLP-energy-patches/blob/main/README.md (README, TenStrip)"
+      ],
+      "civitai_url": null,
+      "source_verified": true
+    },
+    {
+      "filename": "Eros_MotionBooster_V2.safetensors",
+      "sha256": "838b736c8273f277301beed517534fb4fd274ab6b1c3563825904dff1bd61d38",
+      "size": 40711232,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Eros_MotionBooster_V2.safetensors",
+      "name": "Eros Motion Booster V2 (motion_booster_v2_mlp_e995_r8)",
+      "author": "TenStrip（元LoRA: H3 Motion Booster V0.2, FourBunny）",
+      "source_url": "https://huggingface.co/TenStrip/MMH3_Sulphur3Eros_Loras-MLP-energy-patches/blob/main/motion_booster_v2_mlp_e995_r8.safetensors",
+      "base_model": "MiniMax H3（Eros / Sulphur3 マージ・調整モデル向けの MLP パッチ）",
+      "triggers": [],
+      "strength": {
+        "recommended": null,
+        "range": "0.5–1.0+",
+        "source": "Hugging Face README (TenStrip/MMH3_Sulphur3Eros_Loras-MLP-energy-patches)",
+        "sample_metadata_weights": null
+      },
+      "usage": "突き動作の速さと揺れ・バウンドの増強。強度は作者目安 0.5–1.0以上。元LoRA（実写版V0.2）はトリガー dynv2、推奨0.6–0.8、I2V推奨。喘ぎ声は台詞として動作文に入れ、overall_soundscape には衣擦れ・濡れた音・部屋の環境音だけを書くと口が動く（元LoRAの説明）。パッチでのトリガー要否は配布元に記載なし。TenStrip 公開の「energy downranked MLP-only extraction」版（元LoRAからMLP層だけを低ランクで抽出）。Eros / Sulphur3 のマージ・調整モデルに重ねて使う前提で、すでに解剖・ヌード・一般的な動きを持つモデルへの『補強・修正役』として働く（通常のフルLoRAを重ねると、ぼやけ・格子状・プロンプト無視が出やすいため）。 配布元の元ファイル名は motion_booster_v2_mlp_e995_r8.safetensors（HFのLFS sha256 とリリースのファイルが一致）。作例のプロンプトメタデータはCivitai側に無く、プロンプト例は配布元／元LoRA説明の文のみ。Civitaiに投稿する場合は元LoRAの作者をクレジット（作者の依頼）。",
+      "prompt_examples": [],
+      "trigger_required": false,
+      "fire_hint": "トリガー記載なし（元LoRAは dynv2）。動きの方向・リズム・接触・反動を具体的に書く",
+      "example_sources": [
+        "https://huggingface.co/TenStrip/MMH3_Sulphur3Eros_Loras-MLP-energy-patches/blob/main/README.md (README, TenStrip)"
+      ],
+      "civitai_url": null,
+      "source_verified": true
+    },
+    {
+      "filename": "Eros_PLoRA.safetensors",
+      "sha256": "9917c25de4ec178260272c33569eac51b60220f47b876a903685dfb559d306a4",
+      "size": 18859328,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Eros_PLoRA.safetensors",
+      "name": "Eros PLoRA (plora_mlp_e995_r4)",
+      "author": "TenStrip（元LoRA: Penis Lora - H3 v1.0, misterxrex）",
+      "source_url": "https://huggingface.co/TenStrip/MMH3_Sulphur3Eros_Loras-MLP-energy-patches/blob/main/plora_mlp_e995_r4.safetensors",
+      "base_model": "MiniMax H3（Eros / Sulphur3 マージ・調整モデル向けの MLP パッチ）",
+      "triggers": [],
+      "strength": {
+        "recommended": null,
+        "range": "0.7–1.0+",
+        "source": "Hugging Face README (TenStrip/MMH3_Sulphur3Eros_Loras-MLP-energy-patches)",
+        "sample_metadata_weights": null
+      },
+      "usage": "ペニスと睾丸を下側（正面）から見た描写の補助。強度は作者目安 0.7–1.0以上。元LoRAは正面・側面のみで学習（POV視点は無し）、トリガー 'PENISLORA'（'Live action PENISLORA'）。パッチでのトリガー要否は配布元に記載なし。TenStrip 公開の「energy downranked MLP-only extraction」版（元LoRAからMLP層だけを低ランクで抽出）。Eros / Sulphur3 のマージ・調整モデルに重ねて使う前提で、すでに解剖・ヌード・一般的な動きを持つモデルへの『補強・修正役』として働く（通常のフルLoRAを重ねると、ぼやけ・格子状・プロンプト無視が出やすいため）。 配布元の元ファイル名は plora_mlp_e995_r4.safetensors（HFのLFS sha256 とリリースのファイルが一致）。作例のプロンプトメタデータはCivitai側に無く、プロンプト例は配布元／元LoRA説明の文のみ。Civitaiに投稿する場合は元LoRAの作者をクレジット（作者の依頼）。",
+      "prompt_examples": [],
+      "trigger_required": false,
+      "fire_hint": "トリガー記載なし（元LoRAは PENISLORA）。ペニスが正面／側面から見える旨を書く",
+      "example_sources": [
+        "https://huggingface.co/TenStrip/MMH3_Sulphur3Eros_Loras-MLP-energy-patches/blob/main/README.md (README, TenStrip)"
+      ],
+      "civitai_url": null,
+      "source_verified": true
+    },
+    {
+      "filename": "Eros_SilverAnel_Warmup.safetensors",
+      "sha256": "667c2807c3a3628917f1a4013a27dbf086c5bbd8b9d925e6a830f5117b899391",
+      "size": 42576232,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Eros_SilverAnel_Warmup.safetensors",
+      "name": "Eros Silver Anel Warmup (silver_anel_warmup_mlp_e995_r8)",
+      "author": "TenStrip（元LoRA: Anel, silveroxides）",
+      "source_url": "https://huggingface.co/TenStrip/MMH3_Sulphur3Eros_Loras-MLP-energy-patches/blob/main/silver_anel_warmup_mlp_e995_r8.safetensors",
+      "base_model": "MiniMax H3（Eros / Sulphur3 マージ・調整モデル向けの MLP パッチ）",
+      "triggers": [],
+      "strength": {
+        "recommended": null,
+        "range": "0.6–1.0",
+        "source": "Hugging Face README (TenStrip/MMH3_Sulphur3Eros_Loras-MLP-energy-patches)",
+        "sample_metadata_weights": null
+      },
+      "usage": "アナル挿入の対象指定とセックス補助（主に異性間）。強度は作者目安 0.6–1.0。ファイル名の warmup が元LoRAのどの版かは配布元に記載なし。TenStrip 公開の「energy downranked MLP-only extraction」版（元LoRAからMLP層だけを低ランクで抽出）。Eros / Sulphur3 のマージ・調整モデルに重ねて使う前提で、すでに解剖・ヌード・一般的な動きを持つモデルへの『補強・修正役』として働く（通常のフルLoRAを重ねると、ぼやけ・格子状・プロンプト無視が出やすいため）。 配布元の元ファイル名は silver_anel_warmup_mlp_e995_r8.safetensors（HFのLFS sha256 とリリースのファイルが一致）。作例のプロンプトメタデータはCivitai側に無く、プロンプト例は配布元／元LoRA説明の文のみ。Civitaiに投稿する場合は元LoRAの作者をクレジット（作者の依頼）。",
+      "prompt_examples": [],
+      "trigger_required": false,
+      "fire_hint": "トリガー記載なし。アナル挿入の動作を自然文で記述",
+      "example_sources": [
+        "https://huggingface.co/TenStrip/MMH3_Sulphur3Eros_Loras-MLP-energy-patches/blob/main/README.md (README, TenStrip)"
+      ],
+      "civitai_url": null,
+      "source_verified": true
+    },
+    {
+      "filename": "Eros_SlopBounce.safetensors",
+      "sha256": "97b83c7aea9e3cd644ce82e8a3dc1b99c743a66649f73222eccf0ba09f07f62f",
+      "size": 36888344,
+      "download_url": "https://github.com/shuichisaitofd/h3-lora-assets/releases/download/h3-loras-v1/Eros_SlopBounce.safetensors",
+      "name": "Eros Slop Bounce (slop_bounce_e995_r8)",
+      "author": "TenStrip（元LoRA: slop bounce MiniMax H3 LoRa, bhopping）",
+      "source_url": "https://huggingface.co/TenStrip/MMH3_Sulphur3Eros_Loras-MLP-energy-patches/blob/main/slop_bounce_e995_r8.safetensors",
+      "base_model": "MiniMax H3（Eros / Sulphur3 マージ・調整モデル向けの MLP パッチ）",
+      "triggers": [],
+      "strength": {
+        "recommended": null,
+        "range": "0.3–1.0",
+        "source": "Hugging Face README (TenStrip/MMH3_Sulphur3Eros_Loras-MLP-energy-patches)",
+        "sample_metadata_weights": null
+      },
+      "usage": "Wan2.2／3D風のゆっくりした揺れ・バウンド。強度は作者目安 0.3–1.0。元LoRAの説明: 'shakes her hips side to side causing her breasts to bounce, shake, jiggle and sway' のように書く。服が消える場合は服を明記。TenStrip 公開の「energy downranked MLP-only extraction」版（元LoRAからMLP層だけを低ランクで抽出）。Eros / Sulphur3 のマージ・調整モデルに重ねて使う前提で、すでに解剖・ヌード・一般的な動きを持つモデルへの『補強・修正役』として働く（通常のフルLoRAを重ねると、ぼやけ・格子状・プロンプト無視が出やすいため）。 配布元の元ファイル名は slop_bounce_e995_r8.safetensors（HFのLFS sha256 とリリースのファイルが一致）。作例のプロンプトメタデータはCivitai側に無く、プロンプト例は配布元／元LoRA説明の文のみ。Civitaiに投稿する場合は元LoRAの作者をクレジット（作者の依頼）。",
+      "prompt_examples": [
+        "shakes her hips side to side causing her breasts to bounce, shake, jiggle and sway"
+      ],
+      "trigger_required": false,
+      "fire_hint": "トリガー記載なし。揺れ・バウンドの動作を具体的に書く（服は明記）",
+      "example_sources": [
+        "https://huggingface.co/TenStrip/MMH3_Sulphur3Eros_Loras-MLP-energy-patches/blob/main/README.md (README, TenStrip)"
+      ],
+      "civitai_url": null,
       "source_verified": true
     }
   ]
